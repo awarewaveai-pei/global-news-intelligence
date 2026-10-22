@@ -1,8 +1,21 @@
 {
-  "updated_at": "2026-10-23 04:33 Asia/Taipei",
+  "updated_at": "2026-10-23 07:59 Asia/Taipei",
   "notice": "GitHub 官方版本可標示已證實；Google News 搜尋結果僅為待查證線索，不代表官方確認或可申請。",
   "failures": [],
   "items": [
+    {
+      "id": "7ee25a04ae2655e0bf41",
+      "type": "benefit",
+      "brand": "anthropic",
+      "title": "LLMs are making formal software verification feasible at a much larger scale - Anthropic",
+      "summary": "Google News 搜尋候選線索；尚未獨立核對官方公告、活動是否仍有效或適用資格。",
+      "source": "Anthropic",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1Ba1lXTGVFWUJQTVA5UUJMdDJfRVNyU0E1cmlUMXJLSkV2X3RaUnFtbmhpT1IzOUxsNlh1LTA3SGxXd2E5MEM0TnFxZ1B1T1drRUNvQXhodk9nVkFSbUlORXRNNXQ?oc=5",
+      "published_at": "2026-10-23",
+      "verification": "unverified",
+      "eligibility": "台灣／未登記公司／個人獨立開發者是否適用：尚未確認。",
+      "deadline": "未確認"
+    },
     {
       "id": "633e26da0270d5716169",
       "type": "benefit",
@@ -11,6 +24,32 @@
       "summary": "Google News 搜尋候選線索；尚未獨立核對官方公告、活動是否仍有效或適用資格。",
       "source": "OpenAI Platform",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1uUmxqaWRhOW91WmIxVWZEcXluWlhGLU5TZ2U4aUdNRndWVEtNUU40MDRPY04zVzZKcm4tS09QS0VtQU9ldTJpZV9XOU1TY1N1NGgxWkZNV3BhcW9tYWFoZUVERWRlY1BrOU14ZGZMTHFOZ3FyZXYtS1FoUQ?oc=5",
+      "published_at": "2026-10-23",
+      "verification": "unverified",
+      "eligibility": "台灣／未登記公司／個人獨立開發者是否適用：尚未確認。",
+      "deadline": "未確認"
+    },
+    {
+      "id": "5a866a1001a08b1468c9",
+      "type": "update",
+      "brand": "openai",
+      "title": "Build more responsive apps with the Decisions API - OpenAI",
+      "summary": "Google News 搜尋候選線索；尚未獨立核對官方公告、活動是否仍有效或適用資格。",
+      "source": "OpenAI",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBwWWIyTDlFelEtQS1ZMURmOUFiVFJRRy1TazhJMkxGNF9EYkJHZmFYdjVWNl9qZ3dKanBTWXpDeTlicEhCaG0tUHBxUGJfRm9z?oc=5",
+      "published_at": "2026-10-23",
+      "verification": "unverified",
+      "eligibility": "台灣／未登記公司／個人獨立開發者是否適用：尚未確認。",
+      "deadline": "未確認"
+    },
+    {
+      "id": "874f7d1f8cb4017a383d",
+      "type": "benefit",
+      "brand": "xai",
+      "title": "Partners — Grok for Startups | SpaceXSI - xAI",
+      "summary": "Google News 搜尋候選線索；尚未獨立核對官方公告、活動是否仍有效或適用資格。",
+      "source": "xAI",
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFB4RzlxRHhGU2FHV2VtUU5KalZkazZxcGpPVENoOUlfaEtVVGU4R191UzhuaklqSUxqbmhwbEZuZHJFdUhl?oc=5",
       "published_at": "2026-10-23",
       "verification": "unverified",
       "eligibility": "台灣／未登記公司／個人獨立開發者是否適用：尚未確認。",
@@ -28,6 +67,19 @@
       "verification": "unverified",
       "eligibility": "台灣／未登記公司／個人獨立開發者是否適用：尚未確認。",
       "deadline": "未確認"
+    },
+    {
+      "id": "0307ec1244417a613b24",
+      "type": "update",
+      "brand": "anthropic",
+      "title": "v2.1.309",
+      "summary": "官方 GitHub 版本發布；功能細節請閱讀原始 Release Notes。",
+      "source": "GitHub · anthropics/claude-code",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.309",
+      "published_at": "2026-10-22",
+      "verification": "official",
+      "eligibility": "",
+      "deadline": ""
     },
     {
       "id": "b5445ed720b1d92d8428",
@@ -420,26 +472,13 @@
       "deadline": "未確認"
     },
     {
-      "id": "a835b3350d8e6e1fb649",
+      "id": "e0ca230d5955e2f9c5ae",
       "type": "benefit",
       "brand": "google",
-      "title": "Google Cloud release notes - Google Cloud Documentation",
+      "title": "About startup scripts | Compute Engine - Google Cloud Documentation",
       "summary": "Google News 搜尋候選線索；尚未獨立核對官方公告、活動是否仍有效或適用資格。",
       "source": "Google Cloud Documentation",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9YOTZlY1Vwd3poN3p6RHdJMTlUaVFrVzN0cmhLM2RYUjFVRllvVEpleVdSRlFTQVNuUDU0M1ZzMTFlX3hrNjdySlB1dXFuTGNadEFLbUVB?oc=5",
-      "published_at": "2026-10-20",
-      "verification": "unverified",
-      "eligibility": "台灣／未登記公司／個人獨立開發者是否適用：尚未確認。",
-      "deadline": "未確認"
-    },
-    {
-      "id": "9e1e704e1bf7d1360fdd",
-      "type": "benefit",
-      "brand": "xai",
-      "title": "Grok Bot for Clay - xAI",
-      "summary": "Google News 搜尋候選線索；尚未獨立核對官方公告、活動是否仍有效或適用資格。",
-      "source": "xAI",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBZS0I3SHQ3emh6cGhSaVQwVUdPLUNyYXdIYXZjNDFid0xlYXJXa3MtT0dMTXRYV2J2VHlRUGNVeFNYWHdIczFMRUUyMTdWT0xITkxn?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9LUWFYQVJzcjFtVU1sdHYxMnRWU2p0T2NVa0Zpd3Vkd2Zna3pQdHB1bHpSa2hPMHFXUjVfaVhPNGk3NTNUZkd2VF8zaUdUMk1GVlBYOEFoSE1sNlZHSzRWY096V0FFVjdEMHVvT0F2bUhzWjJPTUk4?oc=5",
       "published_at": "2026-10-20",
       "verification": "unverified",
       "eligibility": "台灣／未登記公司／個人獨立開發者是否適用：尚未確認。",
@@ -485,6 +524,32 @@
       "deadline": "未確認"
     },
     {
+      "id": "a835b3350d8e6e1fb649",
+      "type": "benefit",
+      "brand": "google",
+      "title": "Google Cloud release notes - Google Cloud Documentation",
+      "summary": "Google News 搜尋候選線索；尚未獨立核對官方公告、活動是否仍有效或適用資格。",
+      "source": "Google Cloud Documentation",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9YOTZlY1Vwd3poN3p6RHdJMTlUaVFrVzN0cmhLM2RYUjFVRllvVEpleVdSRlFTQVNuUDU0M1ZzMTFlX3hrNjdySlB1dXFuTGNadEFLbUVB?oc=5",
+      "published_at": "2026-10-20",
+      "verification": "unverified",
+      "eligibility": "台灣／未登記公司／個人獨立開發者是否適用：尚未確認。",
+      "deadline": "未確認"
+    },
+    {
+      "id": "9e1e704e1bf7d1360fdd",
+      "type": "benefit",
+      "brand": "xai",
+      "title": "Grok Bot for Clay - xAI",
+      "summary": "Google News 搜尋候選線索；尚未獨立核對官方公告、活動是否仍有效或適用資格。",
+      "source": "xAI",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBZS0I3SHQ3emh6cGhSaVQwVUdPLUNyYXdIYXZjNDFid0xlYXJXa3MtT0dMTXRYV2J2VHlRUGNVeFNYWHdIczFMRUUyMTdWT0xITkxn?oc=5",
+      "published_at": "2026-10-20",
+      "verification": "unverified",
+      "eligibility": "台灣／未登記公司／個人獨立開發者是否適用：尚未確認。",
+      "deadline": "未確認"
+    },
+    {
       "id": "637ddeb38167e8ce597b",
       "type": "update",
       "brand": "anthropic",
@@ -505,6 +570,19 @@
       "summary": "Google News 搜尋候選線索；尚未獨立核對官方公告、活動是否仍有效或適用資格。",
       "source": "Anthropic",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1mOWJENVFMYm9BOWdRbjJXSllRMVJ3ZXh6RkMwQmJlWElqUU9TTENEamlIanRkSXE4UnRaRDROSnZNTXBGM0NoVGNDWkpXZEtrUHRzdlFNSEhVVjBjalloX1ZTQm5LX2RKRXc?oc=5",
+      "published_at": "2026-10-17",
+      "verification": "unverified",
+      "eligibility": "台灣／未登記公司／個人獨立開發者是否適用：尚未確認。",
+      "deadline": "未確認"
+    },
+    {
+      "id": "4557535a01a0cee76e76",
+      "type": "update",
+      "brand": "perplexity",
+      "title": "What is LLM security? How to mitigate the OWASP top 10 safety risks - Perplexity",
+      "summary": "Google News 搜尋候選線索；尚未獨立核對官方公告、活動是否仍有效或適用資格。",
+      "source": "Perplexity",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9tMnpIYXF2NzEyWGdiclIzNjYwSVpDdGIwVlhNVldEMjlvT3FjQVhnMzFXNHhBVmNmRkRqeFJ0SjFDMzZHRk1Vakg1ZEdlSXBwcGR5Y3JEOGJFc3M?oc=5",
       "published_at": "2026-10-17",
       "verification": "unverified",
       "eligibility": "台灣／未登記公司／個人獨立開發者是否適用：尚未確認。",
