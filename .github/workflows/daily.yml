@@ -1,7 +1,7 @@
 name: Daily news headline candidates
 on:
   schedule:
-    - cron: '10 1 * * *'
+    - cron: '0 23 * * *'
   workflow_dispatch:
 permissions:
   contents: write
