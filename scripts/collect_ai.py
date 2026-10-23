@@ -122,6 +122,7 @@ def main():
     for brand, searches in SEARCHES.items():
         for typ, query in searches:
             try:
+                if typ == "update":
                 rows.extend(news_candidates(brand, typ, query))
             except Exception as exc:
                 failures.append(brand + "/" + typ + ": " + str(exc))
@@ -130,10 +131,10 @@ def main():
     cutoff = (NOW - dt.timedelta(days=14)).date().isoformat()
     seen = set()
     output = []
-    for row in rows + prior:
+    for row in prior + rows:
         if row.get("id") in seen or row.get("published_at", "") < cutoff:
             continue
-        if row.get("brand") not in SEARCHES or row.get("type") not in ("update", "benefit"):
+        if row.get("brand") not in SEARCHES or row.get("type") not in ("update", "benefit"):\n            continue\n        if row.get("type") == "benefit" and row.get("verification") != "official":
             continue
         seen.add(row["id"])
         output.append(row)
