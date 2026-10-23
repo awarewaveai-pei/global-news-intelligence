@@ -1,8 +1,27 @@
 {
-  "updated_at": "2026-10-23 16:31 Asia/Taipei（補齊詳細分析，最新日期優先）",
+  "updated_at": "2026-10-23 16:54 Asia/Taipei（新增 Perplexity 官方產品更新）",
   "notice": "已補入先前聊天通報的官方項目；GitHub 自動蒐集與 ChatGPT 通報是不同流程，未建立直接同步時須逐項匯入。官方申請條件請以原頁面為準。",
   "failures": [],
   "items": [
+    {
+      "id": "perplexity-local-computer-mac-20261020",
+      "type": "update",
+      "brand": "perplexity",
+      "title": "Perplexity Computer 正式支援 Mac 全本機 AI Agent：模型、規劃與執行皆可留在裝置上",
+      "summary": "2026/10/20 官方宣布 Perplexity Computer 可在 Apple silicon Mac 全本機執行，支援 Qwen 3.6／PPLX Pro、Notes、Messages、Mail、Numbers 等本機應用；Pro、Max、Enterprise 訂閱者可用，建議至少 36 GB 記憶體。不是免費訂閱或 API Credits。",
+      "source": "Perplexity 官方產品公告",
+      "url": "https://www.perplexity.ai/hub/blog/perplexity-computer-now-runs-fully-local-on-mac",
+      "published_at": "2026-10-20",
+      "discovered_at": "2026-10-23T16:54:45+08:00",
+      "verification": "official",
+      "eligibility": "須為 Perplexity Pro、Max 或 Enterprise 訂閱者，並使用受支援的 Apple silicon Mac；台灣帳戶可否使用及個別設備支援狀態須以 App 實際顯示為準。無須因為此功能註冊公司，但不代表免費可用。",
+      "deadline": "非限時福利；官方未列截止日",
+      "background": "這是 Perplexity Computer 從雲端／混合式 Agent 走向全本機執行的產品更新。官方表示模型、Agent 編排、任務執行可完全留在 Mac，對涉及客戶資料、未公開產品規格與財務文件的流程有潛在隱私優勢。",
+      "details": "官方公告日期：2026/10/20。使用本機 Qwen 3.6 或 PPLX Pro；可授權操作 Notes、Messages、Mail、Numbers 等支援的 Mac 應用。官方建議至少 36 GB 記憶體，須使用 Apple silicon Mac。另可選 Hybrid Compute，經授權將需要網路搜尋或更高階推理的步驟交給雲端。",
+      "awarewave": "對 AwareWave 多項 AI SaaS 的產品需求整理、私有規格文件分析、客戶提案與開發任務整理有實用價值，但需先確認是否已有符合資格的 Perplexity 訂閱、Mac 記憶體及台灣帳戶實際功能。若沒有相容設備或訂閱，不建議為此直接購買。",
+      "playbook": "值得抄的做法：1. 選一個不含機密的真實產品規格整理任務。2. 在 Perplexity Mac App 更新後下載本機模型，選擇 fully local。3. 僅授權必要的資料夾與 App。4. 比較本機與雲端模式的完成率、延遲、資源消耗及資料外傳風險。5. 需要即時資訊時再明確切換 Hybrid／雲端；避免把全本機當作自動具備最新網路資料。",
+      "restrictions": "Pro／Max／Enterprise 訂閱限定；Apple silicon Mac；建議 36 GB 以上記憶體。本機模式不等於所有連接器或即時網路功能皆離線可用；雲端升級需要明確授權。官方未保證台灣所有帳戶同時開通。"
+    },
     {
       "type": "benefit",
       "brand": "xai",
