@@ -1,8 +1,27 @@
 {
-  "updated_at": "2026-10-23 22:40 Asia/Taipei（新增 Anthropic Agent Skills 開放標準重要更新）",
+  "updated_at": "2026-10-24 00:32 Asia/Taipei（新增 OpenAI 10/23 官方工程實戰，含完整分析）",
   "notice": "已補入先前聊天通報的官方項目；GitHub 自動蒐集與 ChatGPT 通報是不同流程，未建立直接同步時須逐項匯入。官方申請條件請以原頁面為準。",
   "failures": [],
   "items": [
+    {
+      "id": "openai-habitat-storage-scaling-part2-20261023",
+      "type": "update",
+      "brand": "openai",
+      "title": "OpenAI 公開 Habitat 儲存架構實戰：多租戶隔離、熱點限流、CDC 快取失效與成本取捨",
+      "summary": "OpenAI 2026-10-23 公開其 Habitat 儲存平台 Part II，詳述從單一共享資料庫、獨立容器到重新採用多租戶架構的權衡，並以熱點限流、前景/背景 QoS 分級及 CDC 驅動快取失效減少相互干擾。對多 SaaS 開發最值得借鏡的是低成本地管理租戶隔離、快取一致性與背景作業優先序，而非複製億級使用者架構。",
+      "source": "OpenAI 官方工程文章（2026-10-23）",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two/",
+      "published_at": "2026-10-23",
+      "discovered_at": "2026-10-24T00:32:00+08:00",
+      "verification": "official",
+      "priority": "medium",
+      "background": "OpenAI 工程團隊於 2026-10-23 發布 Habitat 儲存架構系列第二篇，聚焦 Azure Cosmos DB 的多租戶設計、隔離策略、全球讀取延遲與 Change Data Capture（CDC）。這是可參考的工程經驗分享，並非新的 API 功能、免費訂閱、開發者額度或創業補助。官方系統服務規模遠高於一般新創，應挑選原則而非照搬整套技術。",
+      "details": "官方指出：單一共享資料庫雖易於統一管理，卻容易讓高流量租戶造成 noisy-neighbor 問題；每個服務各自獨立則有容量預估與維運成本。團隊後來以熱點 key 限流、前景互動與背景批次工作不同優先級、依負載調整容量等方式改善共享架構。針對讀取密集資料，採用就近快取，並透過 Cosmos DB change feed（CDC）在資料異動後傳播快取失效；也只將最敏感且體積小的資料做廣泛跨區複製。官方報告其環境整體讀取 p50 從約 120ms 降到約 10ms，這是 OpenAI 特定系統的結果，不能視為 AwareWave 可複製的效益。",
+      "awarewave": "AwareWave 同時開發多個 AI SaaS，若共用資料庫，應先確認每筆資料都能以產品／租戶識別、存取權限及用量上限隔離。早期不必引入 Cosmos DB、Kafka 或全球多區複製；若目前使用 PostgreSQL/Supabase，可先用 RLS、索引、簡單快取及背景工作佇列實作相同原則。這項工程文章沒有台灣地區或公司登記資格限制。",
+      "playbook": "1. 先在每個 SaaS 的請求、資料表與日誌加入 product_id／tenant_id，建立資料存取隔離測試，必要時使用 PostgreSQL RLS。\n2. 為每租戶設 API 速率與併發上限，避免單一租戶拖慢其他產品。\n3. 將互動請求與批次任務拆成不同工作佇列，背景任務使用較低優先級與可重試機制。\n4. 只對讀取頻繁、可容忍短暫過期的資料加入 Redis／應用層快取；寫入時主動失效，搭配 TTL 作最後保護。\n5. 在有實際一致性問題後再評估 CDC；先用事件或明確失效策略即可，不必提早導入 Kafka。\n6. 用真實負載測試記錄 p50/p95 延遲、錯誤率、快取命中率、租戶間干擾與月費，驗證是否真的改善。",
+      "restrictions": "這不是 OpenAI 對外提供的新產品或免費額度。文章中的全球多區複製、Cosmos DB 特定限流模式、Rust 改寫與 12 倍改善屬其內部架構及實測，不保證能在一般 SaaS 重現。多租戶系統的權限隔離與資料外洩風險須先驗證；快取失效也必須處理部分失敗與過期資料。",
+      "deadline": "無；非限時福利"
+    },
     {
       "id": "anthropic-agent-skills-aaif-20261022",
       "type": "update",
