@@ -1,8 +1,27 @@
 {
-  "updated_at": "2026-10-23 18:29 Asia/Taipei（官方來源查核後補入完整實務文章）",
+  "updated_at": "2026-10-23 18:56 Asia/Taipei（官方查證後同步 12h Prompt Caching 及 Grok 申請資格）",
   "notice": "已補入先前聊天通報的官方項目；GitHub 自動蒐集與 ChatGPT 通報是不同流程，未建立直接同步時須逐項匯入。官方申請條件請以原頁面為準。",
   "failures": [],
   "items": [
+    {
+      "id": "openai-12h-prompt-caching-20261020",
+      "type": "update",
+      "brand": "openai",
+      "title": "OpenAI Responses API 新增 12 小時 Prompt Caching：跨小時重用固定前綴",
+      "summary": "OpenAI 於 2026/10/20 正式推出 Responses API 12 小時最短快取期限。GPT-5.6 以上支援 prompt_cache_options.ttl='12h'，寫入費率為一般輸入 2.5 倍，讀取依模型約 0.1 倍（GPT-6.1 Sol 為 0.05 倍）。適合數小時間隔重複使用長系統提示與工具定義的 SaaS，但不是免費額度。",
+      "source": "OpenAI API Changelog（2026-10-20）與官方 Prompt Caching Guide",
+      "url": "https://developers.openai.com/api/docs/guides/prompt-caching",
+      "published_at": "2026-10-20",
+      "discovered_at": "2026-10-23T18:56:00+08:00",
+      "verification": "official",
+      "eligibility": "此為 API 功能，不是帳戶免費福利；須使用支援的 GPT-5.6 或更新模型與 Responses API。台灣個人開發者是否能使用，取決於其實際 API 帳戶及模型權限，不能直接推定。",
+      "deadline": "無公告限時截止日",
+      "background": "多 SaaS 常在不同時段使用同一套 Agent 規則、工具 schema 與產品說明。先前短期快取可能在請求間隔較長時失效；12 小時快取可讓穩定的長前綴在較長時間內重複使用，降低後續讀取的輸入成本。",
+      "details": "Responses API 使用 prompt_cache_options.ttl='12h' 設定至少 12 小時的快取期限；預設 '30m'。GPT-5.6 以上的 30 分鐘寫入費率為一般輸入的 1.25 倍，12 小時寫入為 2.5 倍；兩者的快取讀取費率相同，通常為 0.1 倍，GPT-6.1 Sol 為 0.05 倍。快取前綴至少需符合模型最低 token 門檻（GPT-5.6 以上為 1,024 個可見輸入 tokens），且完整前綴須一致。官方發布日：2026/10/20。更新日誌：https://developers.openai.com/api/docs/changelog",
+      "awarewave": "AwareWave 多項 SaaS 可將不常變動的系統規則、工具定義、長篇產品知識置於請求開頭，依不同產品建立穩定的前綴版本；把使用者輸入、時間戳與動態資料放在後面。只有已取得相應 API 權限的專案才適用。",
+      "playbook": "1. 找出每隔 1–6 小時重複呼叫、且前綴至少 1,024 tokens 的工作流程。\n2. 把固定 developer instructions／工具 schema 放在前段，變動資料放後段。\n3. 以 Responses API 對固定前綴設定 12h 快取，必要時使用 explicit breakpoint。\n4. A/B 測試 30m 與 12h：比較 cached_tokens、cache_write_tokens、延遲、總輸入費用及回覆品質。\n5. 只有跨小時確實重複命中、整體費用下降時才上線；保留成本上限與回退機制。",
+      "restrictions": "12h 寫入較貴，若前綴僅使用一兩次可能不划算；快取命中不保證，會受前綴變動、模型、區域與路由影響。12h 是最短保留期限，不是資料刪除時間，也不會免除 token rate limit。不是免費 API Credits。"
+    },
     {
       "id": "xai-incident-watch-sweep-20261020",
       "type": "update",
@@ -67,17 +86,17 @@
       "url": "https://x.ai/startups",
       "published_at": "2026-10-07",
       "verification": "official",
-      "eligibility": "台灣個人、未登記公司是否符合資格：尚未獲官方確認。申請需提供可驗證的產品、組織及使用資訊；不得虛構公司或融資資料。",
+      "eligibility": "官方 FAQ 明確要求創投支持、已上線產品，以及與公司網站相符的公司網域信箱；官方明言使用個人電子郵件的申請無法核准。台灣是否符合地區條件、未登記公司能否符合公司驗證仍未明確確認，不能假定符合。",
       "deadline": "官方未公布固定截止日；名額與核准由官方決定",
       "apply_url": "https://x.ai/startups/apply",
       "terms_url": "https://x.ai/legal/startup-program-terms",
       "steps": "建立適用帳戶並取得 Team ID → 準備產品網站與真實申請資料 → 閱讀官方條款 → 於官方申請表送出 → 等待審核。",
       "id": "editorial-xai-2026-10-07-Grok for Sta",
       "background": "xAI 的 Grok for Startups 是面向新創團隊的使用額度申請計畫，與 Marketplace Plugin 上架計畫不同。官方會根據申請者資訊審核，並非公開領取的通用免費額度。",
-      "details": "補助額度沒有公開統一金額，須經個別核准；申請需提供真實產品、組織、營收或融資等資料。申請表：https://x.ai/startups/apply\n計畫條款：https://x.ai/legal/startup-program-terms",
+      "details": "補助額度沒有公開統一金額，須經個別核准；申請需提供真實產品、組織、營收或融資等資料。申請表：https://x.ai/startups/apply\n計畫條款：https://x.ai/legal/startup-program-terms\n官方 FAQ 明確表示：無法核准使用個人電子郵件的申請，並查核 venture backing、live product、company email matching website。",
       "awarewave": "AwareWave 正在開發多項 AI SaaS，可準備網站、產品展示與預估 API 用量；但台灣個人獨立創業、尚未登記公司的資格仍未獲官方確認。切勿將「申請頁開放」解讀為「必然符合」。",
       "playbook": "先挑一個已有可操作 Demo 的產品，整理一頁式用途、每月推論量、模型需求及成本預估；向官方確認個人開發者資格後再正式申請。",
-      "restrictions": "沒有固定保證補助金額；可能需審核團隊、公司資訊與實際使用；截止日未公布。"
+      "restrictions": "官方明確不核准個人電子郵件申請；須驗證公司與融資、提供已上線產品及公司網域信箱。核准與金額均不保證；無固定截止日。"
     },
     {
       "type": "update",
