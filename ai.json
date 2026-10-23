@@ -1,8 +1,29 @@
 {
-  "updated_at": "2026-10-23 20:15 Asia/Taipei（已核實並同步新增 Codex 福利、Decisions API、Agent 評測指南）",
+  "updated_at": "2026-10-23 21:13 Asia/Taipei（核實 OpenAI 10/23 API 舊模型停用公告並同步）",
   "notice": "已補入先前聊天通報的官方項目；GitHub 自動蒐集與 ChatGPT 通報是不同流程，未建立直接同步時須逐項匯入。官方申請條件請以原頁面為準。",
   "failures": [],
   "items": [
+    {
+      "id": "openai-legacy-api-model-shutdown-20261023",
+      "type": "update",
+      "brand": "openai",
+      "title": "重要：OpenAI 多款舊 API 模型預定 10/23 停用，AwareWave 應立即盤點模型 ID",
+      "summary": "OpenAI 官方在 2026/04/22 公告多款舊模型及快照將於 2026/10/23 停用，包括 gpt-3.5-turbo、gpt-4、gpt-4-turbo、gpt-4.1-nano、o1、o1-pro、o3-mini、o4-mini、gpt-image-1 相關舊快照及部分微調模型。官方未列出確切停用時刻；截至本次查核不應宣稱所有端點均已停用。若 SaaS 仍使用這些模型，應立即遷移並測試。",
+      "source": "OpenAI 官方 API Deprecations；原始公告 2026-04-22，預定停用 2026-10-23",
+      "url": "https://developers.openai.com/api/docs/deprecations",
+      "published_at": "2026-04-22",
+      "effective_at": "2026-10-23",
+      "discovered_at": "2026-10-23T21:13:54+08:00",
+      "verification": "official",
+      "priority": "high",
+      "deadline": "2026-10-23（官方公告停用日期；未公布精確時刻）",
+      "eligibility": "適用所有使用受影響 OpenAI API 模型 ID 的開發者，不限公司登記或所在地。這是 API 破壞性變更，不是免費福利；是否受影響取決於實際使用的模型。",
+      "background": "OpenAI 為淘汰舊模型，在 2026 年 4 月 22 日公告分批停用；10 月 23 日是其中一批的預定終止日期。對 AwareWave 多個 AI SaaS，最需要防範的是隱藏在環境變數、模型路由、排程工作與舊 SDK 的硬編碼模型 ID，可能造成請求失敗。",
+      "details": "官方 2026/10/23 停用清單包含：gpt-3.5-turbo-0125（及 gpt-3.5-turbo 別名）、gpt-4-0613（及 gpt-4 別名）、gpt-4-1106-preview、gpt-4-turbo（及 2024-04-09 快照）、gpt-4.1-nano、gpt-4o-2024-05-13、gpt-image-1、o1、o1-pro、o3-mini、o4-mini 相關快照，以及部分 ft-* 微調模型。\n官方建議替代：GPT-3.5 舊版→gpt-5.6-terra；GPT-4／Turbo／o1／o3-mini→gpt-5.6-sol；gpt-4.1-nano→gpt-5.6-luna；o4-mini→gpt-5.6-terra；gpt-image-1→gpt-image-2.5-sunburst 或 gpt-image-2.5-flare。o1-pro 需依新模型能力調整推理模式。請逐一核對官方表格，勿直接假定 API 參數完全相容。",
+      "awarewave": "AwareWave 同時開發多項 SaaS，應優先查所有後端、GitHub Actions、Edge Functions、測試程式及環境設定是否仍引用停用模型。台灣個人獨立開發者也可能受影響；與是否登記公司無關。若已全面採用較新模型，則只需確認沒有遺漏舊快照。",
+      "playbook": "1. 在每個程式庫與部署設定搜尋 gpt-3.5-turbo、gpt-4、gpt-4-turbo、gpt-4.1-nano、o1、o1-pro、o3-mini、o4-mini、gpt-image-1 與 ft-* 模型 ID。\n2. 匯出最近 7 天 API 請求的 model 欄位，確認真正使用量。\n3. 依官方替代清單建立集中式模型映射，先在 staging 更換。\n4. 對每個 SaaS 執行 20–50 筆真實任務回歸測試，檢查回應結構、工具呼叫、延遲、token 成本與權限。\n5. 灰度部署並監測 4xx、模型不存在錯誤及品質回歸；保留可切換到仍支援模型的設定。",
+      "restrictions": "官方列的是預定停用日期，不代表已確認每個區域與帳戶在本次查核時均停用；替代模型可能在參數、輸出與價格上不同。避免只改 model 字串就直接上線；微調模型需另檢查遷移方式。"
+    },
     {
       "id": "openai-codex-ambassadors-reopened-20261012",
       "type": "benefit",
