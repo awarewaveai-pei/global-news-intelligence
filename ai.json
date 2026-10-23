@@ -1,8 +1,28 @@
 {
-  "updated_at": "2026-10-23 21:13 Asia/Taipei（核實 OpenAI 10/23 API 舊模型停用公告並同步）",
+  "updated_at": "2026-10-23 21:42 Asia/Taipei（Google Deep Research 舊版 Agent 停用提醒）",
   "notice": "已補入先前聊天通報的官方項目；GitHub 自動蒐集與 ChatGPT 通報是不同流程，未建立直接同步時須逐項匯入。官方申請條件請以原頁面為準。",
   "failures": [],
   "items": [
+    {
+      "id": "google-deep-research-pro-preview-20261023-sunset",
+      "type": "update",
+      "brand": "google",
+      "title": "重要：Gemini Deep Research 舊版 Agent 預定 10/23 停用，需遷移至 2026-04 版本",
+      "summary": "Google 官方 2026-10-08 更新日誌指出，`deep-research-pro-preview-12-2025` 已淘汰，預定 2026-10-23 停用。若 AwareWave 有使用 Gemini Interactions API Deep Research，應檢查 agent 參數並遷移至新版；官方未提供精確停用時間，不能據此斷言服務已實際關閉。",
+      "source": "Google AI for Developers — Gemini API Release notes（2026-10-08）",
+      "url": "https://ai.google.dev/gemini-api/docs/changelog",
+      "published_at": "2026-10-08",
+      "effective_at": "2026-10-23",
+      "discovered_at": "2026-10-23T21:42:54+08:00",
+      "verification": "official",
+      "priority": "high",
+      "background": "Google 的 Gemini API 更新日誌於 10 月 8 日預告 Deep Research Pro Preview 2025-12 版 Agent 將於 2026 年 10 月 23 日停止服務。這是既有 Agent 的版本淘汰，不是新的免費額度或訂閱福利。",
+      "details": "受影響 Agent：`deep-research-pro-preview-12-2025`。\n建議替代：`deep-research-preview-04-2026`（偏速度與串流）或 `deep-research-max-preview-04-2026`（偏全面研究）。\n官方要求將 Interactions API 的 `interactions.create` 請求中 `agent` 參數替換成新版名稱。\n官方模型說明：https://ai.google.dev/gemini-api/docs/models/deep-research-pro-preview-12-2025",
+      "awarewave": "是否實際影響 AwareWave 取決於產品是否使用 Gemini Interactions API 並指定舊 Agent ID；目前沒有 AwareWave API 呼叫或程式碼盤點結果，不能斷言已受影響。台灣個人／未登記公司資格與本次 API 淘汰無直接關係。",
+      "playbook": "1. 在所有 SaaS 儲存庫、環境變數及部署設定搜尋 `deep-research-pro-preview-12-2025`。\n2. 若命中，將 `interactions.create` 的 `agent` 參數改為 `deep-research-preview-04-2026` 或 `deep-research-max-preview-04-2026`。\n3. 用 20–50 個實際研究題測試引用品質、輸出格式、延遲、工具呼叫及成本。\n4. 先灰度部署並監測錯誤率，確認沒有回歸後再全面切換。",
+      "restrictions": "Google 僅公布預定停用日期，未公布精確時刻；不保證新舊版本完全相容。新版的費率、輸出與配額應另查官方文件。",
+      "deadline": "預定停用日：2026-10-23（非福利申請截止日）"
+    },
     {
       "id": "openai-legacy-api-model-shutdown-20261023",
       "type": "update",
