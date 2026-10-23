@@ -1,8 +1,27 @@
 {
-  "updated_at": "2026-10-23 21:42 Asia/Taipei（Google Deep Research 舊版 Agent 停用提醒）",
+  "updated_at": "2026-10-23 22:40 Asia/Taipei（新增 Anthropic Agent Skills 開放標準重要更新）",
   "notice": "已補入先前聊天通報的官方項目；GitHub 自動蒐集與 ChatGPT 通報是不同流程，未建立直接同步時須逐項匯入。官方申請條件請以原頁面為準。",
   "failures": [],
   "items": [
+    {
+      "id": "anthropic-agent-skills-aaif-20261022",
+      "type": "update",
+      "brand": "anthropic",
+      "title": "Anthropic 將 Agent Skills 開放標準移交 AAIF：Claude Code、Codex、Cursor 可共用技能格式",
+      "summary": "Anthropic 於 2026-10-22 宣布將 Agent Skills 標準移交 Linux Foundation 旗下 Agentic AI Foundation（AAIF）。Skills 以 SKILL.md 封裝可重複使用的任務指令、腳本與參考資料；官方表示已有逾 70 個 Agent 平台整合。對 AwareWave 多個 AI SaaS，最有價值的是讓同一套經驗證的工作流程跨工具重用，而非各平台維護不同 Prompt。",
+      "source": "Anthropic 官方公告（2026-10-22）及 Agent Skills 官方規格",
+      "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+      "published_at": "2026-10-22",
+      "discovered_at": "2026-10-23T22:40:00+08:00",
+      "verification": "official",
+      "priority": "medium-high",
+      "background": "Anthropic 先前在 Claude Code 推廣 Agent Skills，2025 年 12 月將格式開放為標準；2026 年 10 月 22 日正式宣布把標準、名稱、GitHub 組織與網域捐贈給 Agentic AI Foundation（AAIF），由中立基金會承接治理。這是標準治理與跨工具可攜性的變化，不是新模型、免費 API Credits 或創業補助。",
+      "details": "一個 Skill 是含 SKILL.md 的資料夾，至少有 name、description 與操作指令；可附 scripts/、references/、assets/。相容的 Agent 先載入技能名稱與描述，符合任務時再讀完整指令，以減少不必要的上下文負擔。Anthropic 表示已有逾 70 個平台整合 Agent Skills，包含 ChatGPT、Cursor、GitHub Copilot 與 VS Code。規格：https://agentskills.io/home；官方公告：https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+      "awarewave": "AwareWave 正在開發多個 AI SaaS，可優先把「官方福利資格查核」、「來源日期驗證」、「網站長文同步」、「發布前測試」等共通流程整理成可版本控管的 Skills。這項標準沒有公司登記或地區申請門檻，但各個 Agent 產品是否支援特定 Skill 功能、腳本執行或權限仍須個別測試。",
+      "playbook": "1. 建立 `skills/verify-ai-benefit/SKILL.md`，明訂只以官方申請頁判定開放狀態、資格不明就標註未確認。\n2. 把來源日期、截止日與資格檢查寫成明確步驟，將網址查驗與資料欄位驗證封裝在 scripts/。\n3. 在 Claude Code 與 Codex（或其他相容 Agent）各跑同一組 20–30 個歷史案例，確認結果一致。\n4. 將技能檔納入 Git 版本管理與 CI，避免各 SaaS 使用互相矛盾的提示詞。\n5. 只給 Skill 最小必要權限，對會寫入 GitHub、發布或通知的動作設人工審核與測試關卡。",
+      "restrictions": "標準相容不代表每個 Agent 都支援相同的腳本、工具與執行環境；第三方 Skills 可能含惡意指令或不安全腳本，應審核來源、鎖定版本與隔離權限。此公告不包含免費一年 Claude Team／Claude Code 或 API 額度。",
+      "deadline": "無申請截止日；非限時福利"
+    },
     {
       "id": "google-deep-research-pro-preview-20261023-sunset",
       "type": "update",
