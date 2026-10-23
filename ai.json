@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23 16:31 Asia/Taipei（補入已通報未同步項目）",
+  "updated_at": "2026-10-23 16:31 Asia/Taipei（補齊詳細分析，最新日期優先）",
   "notice": "已補入先前聊天通報的官方項目；GitHub 自動蒐集與 ChatGPT 通報是不同流程，未建立直接同步時須逐項匯入。官方申請條件請以原頁面為準。",
   "failures": [],
   "items": [
@@ -17,7 +17,12 @@
       "apply_url": "https://x.ai/startups/apply",
       "terms_url": "https://x.ai/legal/startup-program-terms",
       "steps": "建立適用帳戶並取得 Team ID → 準備產品網站與真實申請資料 → 閱讀官方條款 → 於官方申請表送出 → 等待審核。",
-      "id": "editorial-xai-2026-10-07-Grok for Sta"
+      "id": "editorial-xai-2026-10-07-Grok for Sta",
+      "background": "xAI 的 Grok for Startups 是面向新創團隊的使用額度申請計畫，與 Marketplace Plugin 上架計畫不同。官方會根據申請者資訊審核，並非公開領取的通用免費額度。",
+      "details": "補助額度沒有公開統一金額，須經個別核准；申請需提供真實產品、組織、營收或融資等資料。申請表：https://x.ai/startups/apply\n計畫條款：https://x.ai/legal/startup-program-terms",
+      "awarewave": "AwareWave 正在開發多項 AI SaaS，可準備網站、產品展示與預估 API 用量；但台灣個人獨立創業、尚未登記公司的資格仍未獲官方確認。切勿將「申請頁開放」解讀為「必然符合」。",
+      "playbook": "先挑一個已有可操作 Demo 的產品，整理一頁式用途、每月推論量、模型需求及成本預估；向官方確認個人開發者資格後再正式申請。",
+      "restrictions": "沒有固定保證補助金額；可能需審核團隊、公司資訊與實際使用；截止日未公布。"
     },
     {
       "type": "update",
@@ -30,7 +35,12 @@
       "verification": "official",
       "eligibility": "台灣未登記公司個人開發者是否可申請尚未確認；申請需提供組織及可測試的整合產品。",
       "deadline": "官方未公布",
-      "id": "editorial-xai-2026-10-22-Grok Marketp"
+      "id": "editorial-xai-2026-10-22-Grok Marketp",
+      "background": "xAI Marketplace Partner Program 提供 Plugin／MCP Server 的合作與上架申請途徑，目的是擴大產品分發，而非直接發放現金或 API Credits。",
+      "details": "合作計畫：https://x.ai/partners/marketplace\n提交入口：https://x.ai/bot/marketplace/submit-a-plugin",
+      "awarewave": "可把 AwareWave 既有 SaaS 的單一能力包裝成可測試 MCP Server；但個人、未登記公司能否通過申請尚未確認。",
+      "playbook": "選擇最容易展示價值的功能 → 建立 MCP Server → 撰寫工具說明與權限界線 → 提供測試環境 → 申請合作上架 → 追蹤使用者轉換。",
+      "restrictions": "不保證上架或取得客戶；需核對合作條款及資料存取規範。"
     },
     {
       "type": "update",
@@ -44,7 +54,12 @@
       "eligibility": "台灣個人及未登記公司是否符合資格尚未確認；申請表可能要求組織及 Google Cloud 使用資訊。",
       "deadline": "官方未公布",
       "apply_url": "https://openai.com/form/openai-on-google-cloud/",
-      "id": "editorial-openai-2026-10-21-OpenAI on Go"
+      "id": "editorial-openai-2026-10-21-OpenAI on Go",
+      "background": "OpenAI 與 Google Cloud 公告模型與開發工具整合的預覽機會；目前不是普遍開放的免費額度活動。",
+      "details": "官方預覽申請：https://openai.com/form/openai-on-google-cloud/\n公告：https://openai.com/index/openai-models-google-cloud/",
+      "awarewave": "若已使用 Google Cloud，可評估跨模型管理；但台灣個人未登記公司的申請資格尚未確認。",
+      "playbook": "用相同 100 筆真實任務評估 GPT、Claude、Gemini 在成本、正確率、延遲及權限管理上的差異；取得預覽資格前不調整正式環境。",
+      "restrictions": "採邀請或審核制；無保證名額或免費 Credits。"
     },
     {
       "type": "update",
@@ -57,7 +72,12 @@
       "verification": "official",
       "eligibility": "工程實務參考，不涉及福利申請。",
       "deadline": "",
-      "id": "editorial-openai-2026-10-22-Codex 多專案共用 "
+      "id": "editorial-openai-2026-10-22-Codex 多專案共用 ",
+      "background": "OpenAI 工程團隊分享將多個專案中的客製化 Agent 執行邏輯集中為共用架構，並透過 Skills／Plugins 保留產品差異的工程方法。",
+      "details": "這是工程實務案例，不是免費試用、API 額度或產品保證。案例中減少客製化程式碼的幅度不能直接套用到 AwareWave。",
+      "awarewave": "AwareWave 同時開發多項 AI SaaS，適合先在兩個專案試行共用 Agent Runner、MCP 工具權限、日誌、重試與模型抽象層。",
+      "playbook": "1. 選兩個功能相近的 SaaS。\n2. 抽出模型呼叫、工具存取控制、追蹤及錯誤處理。\n3. 將個別任務封裝為 Skills／Plugins。\n4. 用至少 20–50 筆真實案例比較重構前後品質、延遲與成本。\n5. 驗證無回歸後再擴大。",
+      "restrictions": "共用架構可能增加耦合；應維持產品獨立設定與權限邊界。"
     },
     {
       "type": "benefit",
@@ -70,7 +90,12 @@
       "verification": "official",
       "eligibility": "台灣未登記公司的個人獨立創業者是否符合資格尚未確認；目前不可申請。",
       "deadline": "本梯次已額滿",
-      "id": "curated-anthropic-2026-10-13-Claude f"
+      "id": "curated-anthropic-2026-10-13-Claude f",
+      "background": "Anthropic 曾公告免費一年 Claude Team 與 API Credits 的新創方案，但該梯次已額滿。是否重新開放，應以官方申請頁的即時狀態為準。",
+      "details": "先前方案包含最多五個 Claude Team Premium 席位、一年訂閱及一次性 US$1,000 API Credits。這是歷史方案內容，不代表現在仍可申請。",
+      "awarewave": "台灣未登記公司的個人開發者是否符合未來梯次資格，官方尚未明確確認；目前不應預估能領取。",
+      "playbook": "建立官方申請頁變動監測：只有當「額滿／停止受理」變為「可申請」，且可驗證條款後，才標記為重新開放並發送高優先通知。",
+      "restrictions": "本梯次已額滿；不得使用過期活動條款保證下一梯次資格或額度。"
     },
     {
       "type": "benefit",
@@ -83,7 +108,12 @@
       "verification": "official",
       "eligibility": "僅符合資格的現有 Max／Team 訂閱者；台灣個別帳戶以 Billing 顯示為準。",
       "deadline": "依訂閱計費週期",
-      "id": "curated-anthropic-2026-10-07-Claude M"
+      "id": "curated-anthropic-2026-10-07-Claude M",
+      "background": "Anthropic 針對符合資格的 Claude Max／Team 訂閱者提供 API Credits，與 Claude for Startups 的免費一年訂閱屬不同計畫。",
+      "details": "依方案及席位核定月度 API Credits；應於 Claude Console 或官方 Billing 介面確認實際可領取金額與計費週期。",
+      "awarewave": "若 AwareWave 使用者已有符合資格的 Max／Team 訂閱，值得檢查是否可降低 API 開發測試費用；沒有訂閱不代表可免費領取。",
+      "playbook": "把每月額度優先配置到測試環境：固定測試集、成本追蹤與用量告警；不要把限期額度當作永久營運補貼。",
+      "restrictions": "適用方案、計費週期、使用限制以帳戶 Billing 與官方規則為準。"
     },
     {
       "type": "update",
