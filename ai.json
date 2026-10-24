@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-10-24 09:35 Asia/Taipei（新增兩項官方 OSS 免費福利與 Claude Code 2.1.310 安全更新）",
-  "notice": "本輪首次收錄 Claude for Open Source、Codex for Open Source 兩項仍顯示開放申請的既有計畫（非今日新推出），以及 2026-10-23 Claude Code 2.1.310；台灣個人資格均須依官方條款與真實 OSS 貢獻判定。Claude for Startups 仍額滿。",
+  "notice": "本輪首次收錄兩項仍可見官方申請入口的既有 OSS 福利（官方頁未標明最新公告日期，故不視為今日新推出），以及 2026-10-23 Claude Code 2.1.310；台灣個人資格依官方條款及實際 OSS 貢獻判定。Claude for Startups 仍額滿。",
   "failures": [],
   "items": [
     {
@@ -11,18 +11,20 @@
       "summary": "官方申請頁仍顯示 Apply now；提供經核准個人 6 個月免費 Claude Max 20x，最多 10,000 名、滾動審核、無固定截止日。這是既有計畫的首次收錄，不是 10/24 新推出；非 Claude Team 一年、亦非 API Credits。",
       "source": "Anthropic 官方 Claude for Open Source 申請頁及條款（2026-10-24 查核；計畫此前已存在）",
       "url": "https://claude.com/open-source-max",
-      "published_at": "2026-02-26",
+      "published_at": "",
       "discovered_at": "2026-10-24T09:35:00+08:00",
       "verification": "official",
       "priority": "urgent",
       "background": "Anthropic 針對有實際開源維護貢獻的個人提供 6 個月免費 Claude Max 20x，官方條款寫明最多 10,000 人，可能隨時停止收件。申請頁目前仍可見申請入口，但尚未實際提交測試。與目前額滿的 Claude for Startups 是不同計畫。",
       "details": "符合任一標準軌道：維護套件合計 >=500 dependent repos 或 >=100 dependent packages；套件合計 >=200,000 月下載；認可基金會/語言專案維護者；過去 12 個月在非本人 repo 有 >=100 merged PR；repo 過去 12 個月有 >=20 名外部貢獻者 merged PR；或 OpenSSF criticality >=0.4。另有酌情 Ecosystem Impact Track，但必須證明對生態系的重要性。通用條件：自然人、達法定成年年齡、居住於 Claude.ai 支援地區、GitHub 帳戶滿兩年且狀態正常、近 90 天公開 OSS 貢獻、至少一項 OSI 核准授權的開源專案。台灣列於官方 Claude.ai 支援地區，但並不保證個人符合或錄取；公司登記不是必要條件。",
       "awarewave": "台灣尚未登記公司的個人開發者可作為自然人申請，但 AwareWave 多個商業 SaaS 專案本身不能替代 OSS 維護貢獻。需核對 GitHub 帳戶年資、授權、近 90 天貢獻與真實依賴者／使用數；若無足夠 OSS 影響力，不能認定符合。",
-      "playbook": "1. 開啟 https://claude.com/open-source-max，閱讀 https://www.anthropic.com/claude-for-oss-terms。\\n2. 核對 GitHub 帳戶滿 2 年、近 90 天有公開 OSS 貢獻，且有 OSI 授權的專案。\\n3. 確認標準軌道之一，或準備 Ecosystem Impact Track 的真實證據。\\n4. 點 Apply now，使用 GitHub 登入，填聯絡 email、預計用途與 <=500 英文字的資格說明。\\n5. 僅核准者收到 email，核准後 90 天內啟用；核對帳單設定。",
+      "playbook": "1. 開啟 https://claude.com/open-source-max，閱讀 https://www.anthropic.com/claude-for-oss-terms。\n2. 核對 GitHub 帳戶滿 2 年、近 90 天有公開 OSS 貢獻，且有 OSI 授權的專案。\n3. 確認標準軌道之一，或準備 Ecosystem Impact Track 的真實證據。\n4. 點 Apply now，使用 GitHub 登入，填聯絡 email、預計用途與 <=500 英文字的資格說明。\n5. 僅核准者收到 email，核准後 90 天內啟用；核對帳單設定。",
       "restrictions": "沒有官方固定截止日期；最多 10,000 名且可隨時終止。無法確認剩餘名額。免費 6 個月是 Max 20x 訂閱而非 Claude API 額度；額外用量可能另計。原付費訂閱在福利結束後恢復計費，除非事先取消；非原付費者回復免費方案。禁止共用、轉售或提供不實貢獻數據。",
       "deadline": "未公告固定日期；最多 10,000 人、隨時可能關閉",
       "eligibility": "台灣支援地區；限符合 OSS 貢獻條件之自然人，未登記公司不構成障礙，但實際資格未核實",
-      "terms_url": "https://www.anthropic.com/claude-for-oss-terms"
+      "terms_url": "https://www.anthropic.com/claude-for-oss-terms",
+      "effective_at": "2026-10-24（官方頁仍顯示申請入口；非公告日）",
+      "apply_url": "https://claude.com/open-source-max"
     },
     {
       "id": "openai-codex-for-oss-six-month-pro-api-20261024",
@@ -32,18 +34,20 @@
       "summary": "OpenAI 官方申請表仍可見 Submit；核准的 OSS 核心維護者可取得 6 個月 ChatGPT Pro（含 Codex），API Credits 與 Codex Security 為額外條件式審核。這是既有計畫首次收錄，不是 10/24 新推出。",
       "source": "OpenAI 官方 Codex for OSS 計畫、申請表及條款（2026-10-24 查核；官方頁未標發布日）",
       "url": "https://openai.com/form/codex-for-oss/",
-      "published_at": "2026-10-24",
+      "published_at": "",
       "discovered_at": "2026-10-24T09:35:00+08:00",
       "verification": "official",
       "priority": "high",
       "background": "OpenAI Codex for Open Source 支持對開源生態有明確影響力的主要或核心維護者。頁面提供滾動審查申請表，未列固定截止日或統一 API Credits 金額。不能將選填 API Credits 理解為每位錄取者都一定有。",
       "details": "官方申請表要求姓名、與 ChatGPT 帳戶相符的 email、公開 GitHub 帳號、公開 repo URL、主要/核心維護者角色、<=500 字元的專案資格說明、OpenAI Organization ID、API Credits 使用說明（<=500 字元），可選 Codex Security / API Credits。OpenAI 評估實際維護活動、採用情況、專案重要性，並可要求額外驗證。沒有公開固定 stars 門檻、國家清單或公司登記要求；台灣個人是否獲核准不能臆測。",
       "awarewave": "若 AwareWave 有真實開源且被其他開發者使用的基礎工具，並有維護與使用證據，可準備申請。僅有私有商業 SaaS 或公開情報網站，不能據此認定符合 OSS 計畫。與 Codex Ambassadors 是不同計畫。",
-      "playbook": "1. 打開 https://openai.com/form/codex-for-oss/，先閱讀 https://developers.openai.com/codex/codex-for-oss-terms。\\n2. 將 GitHub 個人頁及要申請的 repo 設為公開，確認具主要/核心維護角色。\\n3. 準備 repo 採用量、PR/issue/release 維護證據，及 <=500 字元的生態重要性說明。\\n4. 準備 ChatGPT email 與 OpenAI Organization ID，說明 API Credits 將如何用於 OSS PR 審查、維護自動化或發布。\\n5. 選擇所需福利、提交表單並等待官方 email；沒有保證核准。",
+      "playbook": "1. 打開 https://openai.com/form/codex-for-oss/，先閱讀 https://developers.openai.com/codex/codex-for-oss-terms。\n2. 將 GitHub 個人頁及要申請的 repo 設為公開，確認具主要/核心維護角色。\n3. 準備 repo 採用量、PR/issue/release 維護證據，及 <=500 字元的生態重要性說明。\n4. 準備 ChatGPT email 與 OpenAI Organization ID，說明 API Credits 將如何用於 OSS PR 審查、維護自動化或發布。\n5. 選擇所需福利、提交表單並等待官方 email；沒有保證核准。",
       "restrictions": "API Credits 金額未公開且可能另審；Codex Security 為條件式存取，不能用於未授權的程式碼庫。6 個月 ChatGPT Pro 不等於 API 無限額度。申請不保證通過，無官方統一截止日期。",
       "deadline": "未公告固定截止日；滾動審核",
       "eligibility": "OSS 主要／核心維護者；台灣未登記公司個人是否獲核准未確認",
-      "terms_url": "https://developers.openai.com/codex/codex-for-oss-terms"
+      "terms_url": "https://developers.openai.com/codex/codex-for-oss-terms",
+      "effective_at": "2026-10-24（官方頁仍顯示申請入口；非公告日）",
+      "apply_url": "https://openai.com/form/codex-for-oss/"
     },
     {
       "id": "anthropic-claude-code-21310-monitor-windows-hooks-20261023",
@@ -60,7 +64,7 @@
       "background": "這是上一輪 2.1.309 後的新增穩定版。涉及安全控制及長時間執行 Agent 的監控，適合使用 Claude Code 開發多個 SaaS 的情境。",
       "details": "新增 Monitor tool 和 plugin monitors 在 Bedrock、Vertex、Foundry 及停用遙測或非必要流量時的支援；在這些環境也會阻擋長時間前景 sleep。修正 Windows 的 PreToolUse/PermissionRequest hook 特殊情境可能放行、symlink 檔案讀取權限提示不顯示真實目的地、某些 gateway 拒絕 effort beta 值造成失敗、清理背景檔案與 compaction 問題。企業角色可控 Cloud sessions/Remote Control 權限。官方未宣稱 CVE 或遭實際利用。",
       "awarewave": "若使用 Windows + Git Bash/hooks，優先升級並回歸測試拒絕規則。若使用雲端長時間 Agent，測試 Monitor 事件與權限拒絕日誌。未使用相關平台者可依風險評估升級。",
-      "playbook": "1. 執行 claude --version，確認是否低於 2.1.310。\\n2. 按原安裝方式更新，先在非正式專案驗證。\\n3. Windows 測試 PreToolUse/PermissionRequest hook 在 Git Bash 缺失或執行失敗時能否拒絕高風險操作；只使用無害測試指令。\\n4. 使用測試 symlink 驗證權限提示顯示真正讀取位置。\\n5. 在背景 Agent 測試 Monitor 與權限審核日誌，確認沒有額外對外網路存取。",
+      "playbook": "1. 執行 claude --version，確認是否低於 2.1.310。\n2. 按原安裝方式更新，先在非正式專案驗證。\n3. Windows 測試 PreToolUse/PermissionRequest hook 在 Git Bash 缺失或執行失敗時能否拒絕高風險操作；只使用無害測試指令。\n4. 使用測試 symlink 驗證權限提示顯示真正讀取位置。\n5. 在背景 Agent 測試 Monitor 與權限審核日誌，確認沒有額外對外網路存取。",
       "restrictions": "不是免費福利。官方沒有 CVE 或已遭利用證據；Monitor 在不同部署後端可能存在支援差異。",
       "deadline": "無；建議有相關 Windows hooks 配置者優先升級"
     },
