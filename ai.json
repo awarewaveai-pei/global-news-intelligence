@@ -1,8 +1,30 @@
 {
-  "updated_at": "2026-10-24 13:24 Asia/Taipei（新增 Claude Max/Team 每月 API Credits 與 OpenAI Agents API 排程功能）",
+  "updated_at": "2026-10-24 13:44 Asia/Taipei（新增 Perplexity MCP／Connector 工具呼叫事前核准）",
   "notice": "本輪新增 2 項官方確認且此前未收錄的資訊：Claude Max/Team 每月 API Credits（10/07 上線，需已有合格訂閱）及 OpenAI Agents API Scheduled Automations（10/23 公告）。Claude for Startups 仍額滿未重新開放；未確認台灣個人可免費獲得 Max/Team 訂閱，也未確認 Claude OSS 免費 Max 是否可再領 API 月額度。",
   "failures": [],
   "items": [
+    {
+      "id": "perplexity-agent-mcp-approvals-20261019",
+      "type": "update",
+      "brand": "perplexity",
+      "title": "Perplexity Agent API 新增 MCP／Connector 工具呼叫事前核准：防止 AI 未授權寫入或外傳",
+      "summary": "官方 Agent API 現支援 require_approval，將 MCP／Connector 工具呼叫暫停於審核階段，回傳 mcp_approval_request，待應用程式提交 mcp_approval_response 後才執行。預設仍是無須核准，必須主動啟用；適合具 GitHub、郵件、資料庫寫入能力的 Agent。",
+      "source": "Perplexity API 官方 Changelog 與 MCP 文件（2026-10 月；獨立監測於 2026-10-19 首次觀察）",
+      "url": "https://docs.perplexity.ai/docs/agent-api/tools/mcp",
+      "published_at": "2026-10-19",
+      "discovered_at": "2026-10-24T13:44:00+08:00",
+      "verification": "official",
+      "priority": "medium-high",
+      "background": "此功能非 2026-10-24 當日發布，為本輪首次收錄的既有更新。官方 Changelog 僅標示 2026 年 10 月，未在頁面列出具體日；第三方變更監測記錄於 10 月 19 日首次觀察，日期非官方發布日。",
+      "details": "在 Agent API 的 mcp 或 connector 工具設定 require_approval: 'always'，需要核准的呼叫只產生 mcp_approval_request，工具尚未執行。檢查 server_label、name 與 arguments 後，使用 previous_response_id 和 mcp_approval_response（approve true/false）續跑。也能依工具名稱或 read_only 註記設定篩選；Python SDK 0.43.8、TypeScript SDK 0.38.8 含相應型別。",
+      "awarewave": "AwareWave 多 SaaS 共用 Agent 若透過 Perplexity Agent API 操作 GitHub、Gmail、Slack、外部資料庫或 MCP Server，建議優先為寫入、刪除、發送、付款、部署等動作啟用事前核准。若尚未使用 Perplexity Agent API，屬可參考的跨供應商安全設計，不代表 Claude Code、Codex 或 Gemini 可直接使用相同參數。與創業者是否登記公司無關；使用 API 仍受帳戶及計費限制。",
+      "playbook": "在測試環境將 mcp 工具設定 require_approval='always' → 讓 Agent 嘗試建立測試 GitHub Issue → 驗證先回傳 mcp_approval_request 且尚未寫入 → 後端顯示實際工具名稱、參數與目標 → 拒絕時確認無副作用，允許時送回 mcp_approval_response 並確認只執行一次 → 記錄稽核日誌。正式環境再依最小權限設定 allowed_tools、唯讀 Token、敏感動作核准與逾時拒絕。",
+      "restrictions": "預設無審核，省略 require_approval 仍會直接執行。MCP Server 的 read_only 註記由第三方提供，不能視為可靠安全保證。使用者選「永遠允許」需由應用程式自行持久化並綁定 server_url 與工具名稱，API 不會自動記住。ZDR 組織不能使用 previous_response_id，須依官方文件傳入完整歷史。MCP 呼叫本身無 Perplexity 每次工具費，但模型 tokens 與遠端服務費用仍可能收費。",
+      "deadline": "不適用（持續性 API 功能）",
+      "eligibility": "Perplexity Agent API 開發者可依帳戶、模型與 API 權限使用；無免費額度或新創補助，不需公司登記的資格主張尚未查核。",
+      "apply_url": "",
+      "terms_url": "https://docs.perplexity.ai/docs/resources/changelog"
+    },
     {
       "id": "anthropic-claude-max-team-monthly-api-credits-20261007",
       "type": "benefit",
