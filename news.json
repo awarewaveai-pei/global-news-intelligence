@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-06",
-  "updated_at": "2026-11-06 07:00 Asia/Taipei",
+  "date": "2026-11-07",
+  "updated_at": "2026-11-07 07:04 Asia/Taipei",
   "notice": "僅收錄正文可核實之獨立事件；候選RSS不得視為已審核新聞。",
   "articles": [
     {
@@ -4160,6 +4160,84 @@
       "follow_up": "追蹤正式停戰進展、荷莫茲通行及OPEC出口。",
       "source": "Reuters",
       "url": "https://www.reuters.com/business/energy/global-markets-global-markets-2026-11-05/",
+      "published_at": "2026-11-05",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261107-001",
+      "category": "tw-economy",
+      "title": "金管會宣布11月9日起實施五項穩定股市措施",
+      "summary": "金管會11月6日宣布，自9日起將盤中借券賣出上限由30%降至3%、融券保證金最低成數由90%升至130%，並放寬補繳擔保品、鼓勵庫藏股及法說會。",
+      "background": "台股11月6日收39701.64點、下跌1873.08點；全球AI類股大幅波動促使主管機關介入。",
+      "impact": "推論：措施可能抑制短期放空壓力，但不保證股價止跌，也可能改變市場流動性。",
+      "follow_up": "追蹤11月9日實施細則、成交量、波動率及措施退場條件。",
+      "source": "中央社",
+      "url": "https://www.cna.com.tw/news/afe/202611060293.aspx",
+      "published_at": "2026-11-06 18:48 Asia/Taipei",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261107-002",
+      "category": "tw-policy",
+      "title": "國安基金決議第十次執行市場安定任務",
+      "summary": "國安基金11月6日臨時委員會授權執行秘書視情況動用資金穩定股市，可動用資金上限新台幣5000億元。",
+      "background": "台股11月2日至6日累跌5510點；11月6日收盤39701.64點，國安基金判斷市場信心不足。",
+      "impact": "推論：授權可提供政策支持訊號，但5000億元是可動用上限，不代表已投入該金額。",
+      "follow_up": "追蹤實際執行資訊、外資流向、基金定期報告及市場安定效果。",
+      "source": "中央社",
+      "url": "https://www.cna.com.tw/news/afe/202611060270.aspx",
+      "published_at": "2026-11-06 18:08 Asia/Taipei",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261107-003",
+      "category": "tw-education",
+      "title": "台灣國際旅展開幕，政府重申2030觀光產值與旅客目標",
+      "summary": "總統11月6日在台灣國際旅展開幕表示，2030年目標為年度觀光產值逾新台幣1兆元、國際旅客1000萬人，並提及AI、品牌與步道旅遊。",
+      "background": "旅展40週年，主辦方表示有1600個攤位、涵蓋123個國家與城市；觀光產業連結地方文化與就業。",
+      "impact": "推論：數位轉型與特色旅遊可能促進地方經濟，但目標尚未達成，需考量環境承載。",
+      "follow_up": "追蹤國際旅客統計、觀光收入、地方分布與環境影響。",
+      "source": "中央社 Focus Taiwan",
+      "url": "https://focustaiwan.tw/business/202611060007",
+      "published_at": "2026-11-06 11:47 Asia/Taipei",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261107-004",
+      "category": "intl-energy",
+      "title": "歐洲跨國抗議AI資料中心用電用水，示威者進入阿姆斯特丹工地",
+      "summary": "11月6日逾百名示威者進入阿姆斯特丹微軟AI資料中心工地，抗議團體規劃在16國行動，要求大型建設在監管清晰前暫緩。",
+      "background": "AI算力需求推升資料中心建設，電力、水資源、土地及地方環境成本成為政策爭議。",
+      "impact": "推論：抗議與監管壓力可能增加歐洲資料中心審批不確定性，但不能據此認定計畫已取消。",
+      "follow_up": "追蹤警方與企業說法、地方審批、電網容量及環境評估。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/europe/activists-breach-microsoft-data-centre-construction-site-protests-spread-europe-2026-11-06/",
+      "published_at": "2026-11-06",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261107-005",
+      "category": "intl-economy",
+      "title": "斯里蘭卡2027預算將檢驗IMF計畫後財政韌性",
+      "summary": "路透11月6日報導，斯里蘭卡預計11月12日公布2027年預算，政府在能源成本上升、通膨約8.3%及債務負擔下，面臨財政紀律與民生支出取捨。",
+      "background": "該國在2022年債務危機後推動IMF支持改革，2027年預算與下一階段融資及國際債市重返計畫相關。",
+      "impact": "推論：若預算未兼顧財政可信度與民生保障，可能影響融資成本與社會穩定；預算尚未正式提出。",
+      "follow_up": "追蹤11月12日預算文本、IMF第七次審查及債券市場反應。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/asia-pacific/sri-lanka-budget-faces-post-imf-test-energy-costs-bite-2026-11-06/",
+      "published_at": "2026-11-06",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261107-006",
+      "category": "intl-security",
+      "title": "荷莫茲海峽油輪事故持續，伊朗通報更多船舶受損",
+      "summary": "路透11月5日報導伊朗宣稱荷莫茲海峽又有油輪事故，自週日以來至少五艘船遭遇事件；部分觸雷與起火說法仍待獨立確認。",
+      "background": "美伊戰事及卡達斡旋尚未形成正式停戰協議，海峽航運仍面臨安全與保險風險。",
+      "impact": "推論：若事故持續，可能推升航運保費及能源運輸成本；伊朗單方說法不可當作獨立鑑識結果。",
+      "follow_up": "追蹤船旗國、海事安全機構獨立通報、航跡及和談進展。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/middle-east/tankers-hit-hormuz-iran-keeps-up-pressure-after-us-vote-2026-11-05/",
       "published_at": "2026-11-05",
       "analysis_status": "reviewed"
     }
