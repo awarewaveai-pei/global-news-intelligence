@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-07",
-  "updated_at": "2026-11-07 07:04 Asia/Taipei",
+  "date": "2026-11-08",
+  "updated_at": "2026-11-08 07:00 Asia/Taipei",
   "notice": "僅收錄正文可核實之獨立事件；候選RSS不得視為已審核新聞。",
   "articles": [
     {
@@ -4239,6 +4239,123 @@
       "source": "Reuters",
       "url": "https://www.reuters.com/world/middle-east/tankers-hit-hormuz-iran-keeps-up-pressure-after-us-vote-2026-11-05/",
       "published_at": "2026-11-05",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261108-001",
+      "category": "tw-defense",
+      "title": "中國軍機艦船24架艘次在台海周邊活動",
+      "summary": "國防部11月7日公布前24小時偵獲共機11架次、共艦10艘、公務船3艘；9架次軍機逾越海峽中線。",
+      "background": "國防部例行發布台海周邊海空動態，反映持續的軍事活動與灰色地帶壓力。",
+      "impact": "推論：密集活動可能增加監控與應變負荷；單日數字不代表戰爭即將爆發。",
+      "follow_up": "追蹤後續架次、航跡、官方公告及是否出現不尋常演訓模式。",
+      "source": "中央社",
+      "url": "https://www.cna.com.tw/news/aipl/202611070034.aspx",
+      "published_at": "2026-11-07 09:56 Asia/Taipei",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261108-002",
+      "category": "tw-defense",
+      "title": "國軍規劃採購2434輛新式載重車汰換戰術輪車",
+      "summary": "國防部116年度預算書規劃116至121年投入約233.4億元，採購2434輛新式載重車及8座車輛鋼棚；業者介紹德製軍用卡車爭取商機。",
+      "background": "軍用後勤車輛影響戰時機動補給與道路受損環境下的運輸韌性。",
+      "impact": "推論：改善越野與後勤運輸能力有助分散部署，但預算規劃與廠商展示不等於採購定案。",
+      "follow_up": "追蹤預算審查、招標、得標廠商、交車及測試結果。",
+      "source": "中央社",
+      "url": "https://www.cna.com.tw/news/aipl/202611070105.aspx",
+      "published_at": "2026-11-07 15:39 Asia/Taipei",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261108-003",
+      "category": "tw-policy",
+      "title": "總統談健保給付改革與醫療人員待遇",
+      "summary": "賴清德11月7日於醫師節活動表示，政府持續提高健保總額、推動不同工不同酬及醫療給付調整，盼醫療院所改善員工薪資與服務品質。",
+      "background": "醫療院所人力不足及給付制度長期是醫療政策議題。",
+      "impact": "推論：給付調整可能改善特定科別留任誘因，但政策宣示不等於所有醫事人員已加薪。",
+      "follow_up": "追蹤健保總額實際分配、給付標準、醫療院所薪資與人力指標。",
+      "source": "中央社",
+      "url": "https://www.cna.com.tw/news/aipl/202611070102.aspx",
+      "published_at": "2026-11-07 15:32 Asia/Taipei",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261108-004",
+      "category": "tw-policy",
+      "title": "外交部爭取CPTPP會員支持台灣加入",
+      "summary": "外交部11月7日表示，10月18日至24日由CPTPP七個會員國媒體組成的訪團曾訪台，外交部藉此說明台灣加入協定的意願與法規接軌工作。",
+      "background": "台灣持續申請加入CPTPP，入會仍須依會員共識與正式程序。",
+      "impact": "推論：國際溝通有助提高台灣議題能見度，但媒體訪問不代表會員國已同意入會。",
+      "follow_up": "追蹤會員國正式立場、入會工作小組程序及法規接軌進展。",
+      "source": "中央社",
+      "url": "https://www.cna.com.tw/news/aipl/202611070042.aspx",
+      "published_at": "2026-11-07 10:54 Asia/Taipei",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261108-005",
+      "category": "tw-defense",
+      "title": "智庫研判中國可能進行未預告的台灣周邊封控演訓",
+      "summary": "中央社11月7日報導，ISW與AEI研究者研判中國可能正進行大型未公告演訓，台灣學者分析相關部署與政治時機；報導並引述台灣官員對西太平洋艦艇活動的觀察。",
+      "background": "研判建立在公開部署資訊及專家分析，並非中國官方承認的正式演習。",
+      "impact": "推論：若研判成立，可能涉及封控與反介入演練；目前不能將可能性視為已證實軍演。",
+      "follow_up": "追蹤原始智庫報告、衛星或航跡證據、國防部與各國官方通報。",
+      "source": "中央社",
+      "url": "https://www.cna.com.tw/news/aipl/202611070199.aspx",
+      "published_at": "2026-11-07 21:17 Asia/Taipei",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261108-006",
+      "category": "intl-security",
+      "title": "俄羅斯飛彈與無人機攻擊烏克蘭造成至少9人受傷",
+      "summary": "美聯社11月7日報導，俄羅斯飛彈及無人機攻擊烏克蘭多地，至少9人受傷，住宅、能源與基礎設施受損；烏方稱俄軍發射36枚彈道飛彈及172架無人機。",
+      "background": "俄烏戰爭持續，三方會談預定下週於阿布達比舉行。",
+      "impact": "推論：基礎設施受損可能加重冬季民生壓力，並增加談判前的不信任；發射數量為烏方通報。",
+      "follow_up": "追蹤傷亡更新、獨立損害評估、電力修復與11月10日至11日會談。",
+      "source": "Associated Press",
+      "url": "https://apnews.com/article/b042adf1f95848f5d233da866a72e312",
+      "published_at": "2026-11-07",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261108-007",
+      "category": "intl-security",
+      "title": "美軍成立Iron Gate特遣隊擴大限制伊朗陸路貿易",
+      "summary": "路透社11月7日報導，美軍宣布成立Iron Gate特遣隊，跨部門針對伊朗經陸路及裏海運送受制裁物資、軍民兩用技術與相關收入的網絡採取限制行動。",
+      "background": "美國已對伊朗實施海上封鎖，雙方仍透過中介進行外交接觸。",
+      "impact": "推論：限制陸路網絡可能增加區域物流與外交摩擦，但不能據此推定美伊談判已終止。",
+      "follow_up": "追蹤美國中央司令部正式命令、相關制裁清單、鄰國回應及外交談判。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/middle-east/expanding-naval-blockade-us-military-looks-restrict-iranian-land-commerce-2026-11-07/",
+      "published_at": "2026-11-07",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261108-008",
+      "category": "tw-diplomacy",
+      "title": "台灣宣布關閉巴布亞紐幾內亞代表處並停止採購液化天然氣",
+      "summary": "路透社11月6日報導，台灣政府表示將關閉巴布亞紐幾內亞代表處，並停止現貨液化天然氣採購及不再簽署新約，稱巴國要求代表處人員離境涉及中國施壓。",
+      "background": "台灣與太平洋國家的非正式關係及能源貿易受到外交環境影響；巴國與中方當時尚未回應。",
+      "impact": "推論：政策可能影響巴國出口收入及台灣能源採購調整；尚不能推定台灣天然氣供應將短缺。",
+      "follow_up": "追蹤外交部後續公告、巴國回應、替代LNG來源與採購成本。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/asia-pacific/taiwan-shuts-papua-new-guinea-office-ends-lng-buying-citing-chinese-pressure-2026-11-06/",
+      "published_at": "2026-11-06",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261108-009",
+      "category": "intl-policy",
+      "title": "跨國議員聯盟決議加強宣導台海和平與因應中國經濟脅迫",
+      "summary": "中央社11月7日報導，對中政策跨國議會聯盟在海牙年會決議，強化對台海及南海和平重要性的宣導，並提升會員國應對中國經濟槓桿的韌性。",
+      "background": "跨國議員網絡可倡議政策，但其決議不等於各國政府或國會已立法。",
+      "impact": "推論：可能推動後續跨國議會討論與供應鏈政策，實際政策效果仍需觀察。",
+      "follow_up": "追蹤IPAC正式決議文本、各國議會提案與政府採行狀況。",
+      "source": "中央社",
+      "url": "https://www.cna.com.tw/news/aipl/202611070006.aspx",
+      "published_at": "2026-11-07 04:36 Asia/Taipei",
       "analysis_status": "reviewed"
     }
   ]
