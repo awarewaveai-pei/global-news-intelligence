@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-08",
-  "updated_at": "2026-11-08 07:00 Asia/Taipei",
+  "date": "2026-11-09",
+  "updated_at": "2026-11-09 07:00 Asia/Taipei",
   "notice": "僅收錄正文可核實之獨立事件；候選RSS不得視為已審核新聞。",
   "articles": [
     {
@@ -4356,6 +4356,84 @@
       "source": "中央社",
       "url": "https://www.cna.com.tw/news/aipl/202611070006.aspx",
       "published_at": "2026-11-07 04:36 Asia/Taipei",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261109-001",
+      "category": "tw-society",
+      "title": "中央氣象署預報東北季風增強，北台灣週一明顯降溫",
+      "summary": "中央氣象署11月8日表示，入秋以來較強的東北季風將自8日晚間影響台灣，北部與宜蘭9日高溫可能降至21至22度，10日進一步降至19至20度；大台北與宜蘭有局部較大雨勢機會。此為預報，非已發生的觀測結果。",
+      "background": "東北季風季節性增強會影響北部氣溫、降雨與戶外交通活動；氣象署同時研判熱帶風暴薔薇對台灣沒有直接威脅。",
+      "impact": "推論：通勤、長者照護及戶外活動應留意溫差與降雨，實際影響取決於後續天氣演變。",
+      "follow_up": "追蹤11月9日至10日氣象署最新預報、降雨警示及實測溫度。",
+      "source": "中央社 Focus Taiwan",
+      "url": "https://focustaiwan.tw/society/202611080013",
+      "published_at": "2026-11-08 19:40 Asia/Taipei",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261109-002",
+      "category": "world-politics",
+      "title": "川普稱若美伊談判進展良好，不太可能再對伊朗發動攻擊",
+      "summary": "路透社11月8日報導，川普接受CNN訪問表示，若美伊談判取得強有力協議，進一步攻擊伊朗的可能性很低；同時仍提及美方已辨識可能攻擊的基礎設施目標。此為有條件的政治表態，非停戰協議。",
+      "background": "美伊透過卡達等管道持續接觸，核議題、制裁、戰爭賠償及荷莫茲海峽通行仍有分歧。",
+      "impact": "推論：談判進展可能降低部分軍事風險，但威脅性言論與海上衝突持續，使局勢仍高度不確定。",
+      "follow_up": "追蹤美伊正式協議文本、卡達斡旋、雙方軍事行動及制裁安排。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/middle-east/trump-says-he-is-unlikely-order-iran-attack-if-talks-progress-cnn-reports-2026-11-08/",
+      "published_at": "2026-11-08",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261109-003",
+      "category": "world-security",
+      "title": "俄軍攻擊烏克蘭救援人員，南部先前空襲死亡人數升至至少55人",
+      "summary": "美聯社11月8日報導，俄羅斯無人機攻擊烏克蘭札波羅熱地區Komyshuvakha的緊急救援人員，造成設備受損但未新增傷者；救援人員正處理此前一處前校舍與人道援助聚集地遭轟炸事件。烏方通報此前襲擊至少55人死亡、45人失蹤，數字仍待核實。",
+      "background": "俄烏戰爭持續，11月10至11日預定在阿布達比舉行美國斡旋的相關談判；攻擊救援活動與民用設施涉及國際人道法問題。",
+      "impact": "推論：救援風險增加可能延緩傷患救助與基礎設施修復，亦可能加深停火談判難度；責任與個別攻擊合法性須依證據判斷。",
+      "follow_up": "追蹤失蹤者確認、獨立調查、國際人道法評估及阿布達比會談。",
+      "source": "Associated Press",
+      "url": "https://apnews.com/article/e64dd583955f11e4cf08ef5af6eaf35b",
+      "published_at": "2026-11-08",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261109-004",
+      "category": "world-finance",
+      "title": "美伊緊張局勢下波灣股市多數下跌，能源與銀行股承壓",
+      "summary": "路透社11月8日報導，沙烏地阿拉伯主要股指下跌0.8%，卡達股指下跌0.5%，埃及藍籌股指下跌0.7%；投資人關注美伊談判、海上衝突與區域安全事件。",
+      "background": "美伊衝突及荷莫茲海峽航運風險影響波灣國家能源出口、保險與市場風險偏好。",
+      "impact": "推論：地緣政治風險可能使波灣資產波動增加，但單日股價變化不能證明長期經濟衰退。",
+      "follow_up": "追蹤海運通行、油價、波灣各國交易日表現與外交談判。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/middle-east/gulf-markets-retreat-traders-await-trumps-next-move-iran-2026-11-08/",
+      "published_at": "2026-11-08",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261109-005",
+      "category": "world-energy",
+      "title": "COP31即將在土耳其登場，化石燃料減量與氣候資金成焦點",
+      "summary": "路透社11月6日前瞻報導指出，COP31預定在土耳其安塔利亞開幕，議程聚焦化石燃料轉型、氣候融資及適應措施。聯合國資料顯示，2024年已開發國家提供的適應資金約282億美元，與開發中國家每年估計需求仍有顯著落差。會議尚未形成新的決議。",
+      "background": "氣候談判長期面臨減排責任、資金動員與政策執行落差；本項為七日內會議前瞻，不是會議成果。",
+      "impact": "推論：若各國提出可執行的融資與減排承諾，可能影響能源投資及供應鏈揭露要求；具體效果仍取決於協議內容。",
+      "follow_up": "追蹤COP31正式議程、國家承諾、適應資金及最後決議。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/sustainability/fossil-fuel-cuts-finance-top-cop31-agenda-2026-11-06/",
+      "published_at": "2026-11-06",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261109-006",
+      "category": "world-tech",
+      "title": "IMF總裁警告AI成長若放緩，將影響央行政策評估",
+      "summary": "路透社11月6日報導，IMF總裁喬治艾娃表示，AI投資推動部分國家成長，但若動能放緩，央行在通膨與金融穩定評估中必須納入其影響。此為政策風險提醒，非AI產業已陷入衰退的確認。",
+      "background": "全球AI資料中心支出規模龐大，市場同時關注能源成本、估值、融資與監管變化。",
+      "impact": "推論：AI資本支出若顯著放緩，可能影響科技供應鏈與市場預期，但各國曝險程度不同。",
+      "follow_up": "追蹤IMF後續報告、雲端業者資本支出、通膨及央行決策。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/business/imfs-georgieva-says-any-slowdown-ai-driven-growth-would-be-factor-central-banks-2026-11-06/",
+      "published_at": "2026-11-06",
       "analysis_status": "reviewed"
     }
   ]
