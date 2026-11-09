@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-09",
-  "updated_at": "2026-11-09 07:00 Asia/Taipei",
+  "date": "2026-11-10",
+  "updated_at": "2026-11-10 07:00 Asia/Taipei",
   "notice": "僅收錄正文可核實之獨立事件；候選RSS不得視為已審核新聞。",
   "articles": [
     {
@@ -4434,6 +4434,97 @@
       "source": "Reuters",
       "url": "https://www.reuters.com/business/imfs-georgieva-says-any-slowdown-ai-driven-growth-would-be-factor-central-banks-2026-11-06/",
       "published_at": "2026-11-06",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261110-001",
+      "category": "tw-economy",
+      "title": "10月出口創967.6億美元新高，年增58.9%",
+      "summary": "財政部11月9日公布10月出口967.6億美元，年增58.9%；進口688.9億美元，貿易順差278.8億美元。資通與電子零組件合計占出口83%。",
+      "background": "AI伺服器與晶片需求帶動出口連續36個月年增，美國為最大出口市場。",
+      "impact": "推論：AI需求集中可能推升成長，也提高台灣出口對少數產業及市場的依賴。",
+      "follow_up": "追蹤11月出口、AI設備訂單、主要市場變化及傳產表現。",
+      "source": "中央社 Focus Taiwan",
+      "url": "https://focustaiwan.tw/business/202611090020",
+      "published_at": "2026-11-09 19:26 Asia/Taipei",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261110-002",
+      "category": "tw-economy",
+      "title": "台股11月9日反彈1960點，國安基金授權穩市後市場回升",
+      "summary": "台股11月9日上漲1960.06點、漲幅4.94%，收41661.70點；成交額8379.3億元。外資仍賣超900.6億元。",
+      "background": "國安基金11月6日授權視情況進場，前期科技股下跌引發市場波動。",
+      "impact": "推論：政策訊號與美國科技股回升可能改善信心，但單日上漲不代表跌勢結束，也不代表基金已投入全部授權資金。",
+      "follow_up": "觀察外資流向、國安基金實際操作、成交量及美國通膨數據。",
+      "source": "中央社 Focus Taiwan",
+      "url": "https://focustaiwan.tw/business/202611090017",
+      "published_at": "2026-11-09 16:54 Asia/Taipei",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261110-003",
+      "category": "tw-economy",
+      "title": "台經院上修2026台灣經濟成長預測至12.34%",
+      "summary": "台經院11月9日將2026年GDP成長預測由10.38%上修至12.34%，並預測2027年成長6.45%。這是研究機構預測，非已實現數值。",
+      "background": "AI硬體出口、伺服器與半導體投資強勁，帶動出口與民間投資。",
+      "impact": "推論：高成長預測反映AI投資循環，但產業受益不均及資料中心投資成本是風險。",
+      "follow_up": "追蹤主計總處實際GDP、AI資本支出與2027預測修正。",
+      "source": "中央社 Focus Taiwan",
+      "url": "https://focustaiwan.tw/business/202611090009",
+      "published_at": "2026-11-09 14:52 Asia/Taipei",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261110-004",
+      "category": "tw-policy",
+      "title": "勞動部統一最低工資違規累進裁罰，2027年起實施",
+      "summary": "勞動部11月9日說明修訂裁罰基準，2027年1月1日起對重複違反最低工資規定者累進裁罰；上市櫃等指定大型事業部分違規最低罰5萬元。",
+      "background": "地方政府原有裁罰尺度不一，勞團要求統一執法；三年內同一條文違規將累計計算。",
+      "impact": "推論：新規可能提高企業違規成本，但實際效果取決於地方稽查與申訴處理。",
+      "follow_up": "追蹤地方政府公告裁罰表、2027年執行情況與違規率。",
+      "source": "中央社 Focus Taiwan",
+      "url": "https://focustaiwan.tw/society/202611090016",
+      "published_at": "2026-11-09 16:53 Asia/Taipei",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261110-005",
+      "category": "tw-tech",
+      "title": "台灣推進自主衛星發射，沙崙與九鵬基地列入規劃",
+      "summary": "總統11月9日於TASTI太空科技展表示支持國產衛星及火箭；沙崙研測基地預計2030年啟用、九鵬國家發射設施預計2032年完成。",
+      "background": "台灣現仍仰賴國外業者進行衛星軌道發射，太空計畫第三期經費調整至710億元、延至2031年。",
+      "impact": "推論：自主發射設施可能提高供應鏈及通訊韌性，但目前是建設目標，不是已具軌道發射能力。",
+      "follow_up": "追蹤環評、設施建置、預算執行與發射測試。",
+      "source": "中央社 Focus Taiwan",
+      "url": "https://focustaiwan.tw/sci-tech/202611090012",
+      "published_at": "2026-11-09 15:38 Asia/Taipei",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261110-006",
+      "category": "world-tech",
+      "title": "川普對AI安全護欄表態開放，但尚無具體法案",
+      "summary": "路透社11月9日報導，美國總統川普接受CBS訪問時表示AI風險可管理，對適當安全護欄持開放態度，亦強調不能因監管落後中國。",
+      "background": "美國AI政策持續在產業競爭、創新速度與安全監管之間權衡。",
+      "impact": "推論：行政態度可能為跨黨派討論創造空間，但不等於已提出或通過AI監管規則。",
+      "follow_up": "追蹤白宮正式政策、國會提案及監管機關行動。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/trump-says-ai-risks-can-be-managed-signals-openness-guardrails-2026-11-09/",
+      "published_at": "2026-11-09 00:29 UTC",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261110-007",
+      "category": "world-climate",
+      "title": "COP31在土耳其開幕，提出2035年全球經濟電氣化目標",
+      "summary": "11月9日COP31在安塔利亞開幕，主席國倡議2035年前將全球經濟電氣化比重提高至三分之一以上；氣候官員呼籲加速減排。",
+      "background": "氣候融資、能源安全、AI用電及化石燃料轉型是談判重點；倡議尚非全體締約國決議。",
+      "impact": "推論：電氣化可降低部分燃料依賴，但若電力來源仍高碳，減排成效將受限。",
+      "follow_up": "追蹤正式宣言簽署國、資金承諾、低碳電力配套與COP31決議。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/sustainability/cop/cop31-open-turkey-with-climate-goals-under-pressure-war-ai-2026-11-09/",
+      "published_at": "2026-11-09 01:04 UTC",
       "analysis_status": "reviewed"
     }
   ]
