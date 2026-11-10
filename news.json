@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-10",
-  "updated_at": "2026-11-10 07:00 Asia/Taipei",
+  "date": "2026-11-11",
+  "updated_at": "2026-11-11 07:00 Asia/Taipei",
   "notice": "僅收錄正文可核實之獨立事件；候選RSS不得視為已審核新聞。",
   "articles": [
     {
@@ -4525,6 +4525,110 @@
       "source": "Reuters",
       "url": "https://www.reuters.com/sustainability/cop/cop31-open-turkey-with-climate-goals-under-pressure-war-ai-2026-11-09/",
       "published_at": "2026-11-09 01:04 UTC",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261111-001",
+      "category": "tw-tech",
+      "title": "台積電10月營收5868.9億元創新高",
+      "summary": "台積電11月10日公布10月合併營收新台幣5868.9億元，年增59.7%、月增14.7%，創單月新高。",
+      "background": "AI晶片需求與先進製程出貨帶動營收；前10月累計營收約4.49兆元。",
+      "impact": "推論：強勁營收支持半導體景氣，但單月數據無法保證未來成長或毛利率。",
+      "follow_up": "觀察11至12月營收、先進製程產能、資本支出及AI客戶需求。",
+      "source": "中央社 Focus Taiwan",
+      "url": "https://focustaiwan.tw/business/202611100014",
+      "published_at": "2026-11-10 15:31 Asia/Taipei",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261111-002",
+      "category": "tw-economy",
+      "title": "央行：11月以來外資匯出約100億美元",
+      "summary": "央行總裁楊金龍11月10日指出，11月以來外資匯出約100億美元，包含股市獲利及股息等正常資金流動。",
+      "background": "台股近日劇烈波動，外資連續賣超，台幣承受貶值壓力。",
+      "impact": "推論：資金外流可能加劇匯率波動，但不等於台灣金融體系出現危機。",
+      "follow_up": "追蹤央行匯率說明、外資流向與國際美元走勢。",
+      "source": "中央社 Focus Taiwan",
+      "url": "https://focustaiwan.tw/business/202611100013",
+      "published_at": "2026-11-10 15:24 Asia/Taipei",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261111-003",
+      "category": "tw-defense",
+      "title": "國防部長指中國在西太平洋進行反介入與區域拒止演訓",
+      "summary": "台灣國防部長顧立雄11月10日表示，遼寧號航艦編隊等中國海上兵力在西太平洋進行反介入與區域拒止相關演訓；北京未正式公告演習。",
+      "background": "近期台灣周邊與西太平洋出現大規模中國海軍及海警活動。",
+      "impact": "推論：活動可能增加區域緊張與誤判風險，但不能將未公告演訓視為已實施封鎖。",
+      "follow_up": "追蹤國防部逐日動態、中國官方說明及周邊國家回應。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/china/taiwan-says-china-is-conducting-area-denial-drills-western-pacific-2026-11-10/",
+      "published_at": "2026-11-10",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261111-004",
+      "category": "world-security",
+      "title": "俄軍攻擊烏克蘭電網之際，美俄烏阿布達比會談啟動",
+      "summary": "11月10日俄羅斯攻擊烏克蘭多處能源設施，造成停電與人員傷亡；同日美俄烏代表在阿布達比展開會談。",
+      "background": "冬季能源設施成為俄烏戰爭重要戰場，雙方在領土與安全安排仍有重大分歧。",
+      "impact": "推論：攻擊可能加劇人道危機並削弱談判互信；會談啟動不等於停火。",
+      "follow_up": "追蹤會談第二日、能源修復與獨立傷亡統計。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/russia-pounds-ukraines-power-grid-talks-open-abu-dhabi-2026-11-10/",
+      "published_at": "2026-11-10",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261111-005",
+      "category": "world-politics",
+      "title": "伊朗安全官員否認美伊目前正在談判",
+      "summary": "伊朗安全官員穆赫辛·雷扎伊11月10日表示德黑蘭與華府目前沒有談判，要求美方先明確回應伊方條件。",
+      "background": "此前美國總統表示若談判進展良好可能避免新一輪攻擊，卡達仍扮演斡旋角色。",
+      "impact": "推論：雙方公開表態落差可能延長荷莫茲海峽不確定性；不代表未來不會重啟接觸。",
+      "follow_up": "追蹤美方與卡達正式回應、航道通行及談判條件。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/middle-east/irans-top-security-official-says-no-talks-underway-with-us-2026-11-10/",
+      "published_at": "2026-11-10",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261111-006",
+      "category": "world-climate",
+      "title": "COP31討論2035年電氣化35%目標的低碳電力缺口",
+      "summary": "11月10日COP31談判討論2035年前將全球能源使用中電力比重提高至35%的倡議，部分國家要求同時確保新增電力低碳化。",
+      "background": "電氣化可替代部分化石燃料終端使用，但各國發電結構差異大。",
+      "impact": "推論：若缺乏潔淨電力與電網投資配套，電氣化承諾未必帶來預期減排。",
+      "follow_up": "追蹤正式文本、簽署國、化石燃料轉型路徑與資金安排。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/sustainability/cop31s-electrification-contradiction-2026-11-10/",
+      "published_at": "2026-11-10",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261111-007",
+      "category": "world-politics",
+      "title": "加拿大總理擬在APEC向習近平提出外國干預疑慮",
+      "summary": "加拿大總理卡尼11月10日表示，預定在深圳APEC峰會與中國國家主席習近平會晤時提出外國干預加拿大內政問題。",
+      "background": "加拿大同時尋求改善與中國的經貿關係；北京否認干預加拿大選舉。",
+      "impact": "推論：安全與經貿議題並行，可能使雙邊關係呈現有限合作與持續摩擦。",
+      "follow_up": "追蹤11月18至19日峰會實際會晤與官方聲明。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/china/carney-says-he-will-tell-xi-that-outsiders-should-not-meddle-canadas-affairs-2026-11-10/",
+      "published_at": "2026-11-10",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261111-008",
+      "category": "world-security",
+      "title": "烏克蘭呼籲美國加速防空攔截彈交付",
+      "summary": "烏克蘭外長11月10日表示，已請求美國加速防空攔截彈交付，並支持遭攻擊電網的修復。",
+      "background": "俄軍持續攻擊能源設施，烏克蘭在冬季面臨防空與電力供應壓力。",
+      "impact": "推論：若防空補給延遲，民生與能源基礎設施風險可能升高；請求不等於美方已批准增援。",
+      "follow_up": "追蹤美國正式軍援安排、PURL計畫及電網修復進度。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/ukraine-urges-united-states-speed-up-interceptor-deliveries-russia-targets-power-2026-11-10/",
+      "published_at": "2026-11-10",
       "analysis_status": "reviewed"
     }
   ]
