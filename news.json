@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-12",
-  "updated_at": "2026-11-12 07:03 Asia/Taipei",
+  "date": "2026-11-13",
+  "updated_at": "2026-11-13 07:00 Asia/Taipei",
   "notice": "僅收錄正文可核實之獨立事件；候選RSS不得視為已審核新聞。",
   "articles": [
     {
@@ -4772,6 +4772,45 @@
       "source": "中央社",
       "url": "https://www.cna.com.tw/news/aipl/202611120003.aspx",
       "published_at": "2026-11-12",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261113-001",
+      "category": "tw-defense",
+      "title": "國防部：11月12日29架次共機出海，22架次逾越海峽中線及延伸線",
+      "summary": "國防部11月12日下午表示，上午9時38分起陸續偵獲殲10、殲16、殲轟7、空警500、運油20等主輔戰機及無人機共29架次出海，其中22架次越過海峽中線及延伸線，進入台灣周邊空域，並配合共艦活動。此為國防部公布之偵測資料。",
+      "background": "台灣周邊海空軍事活動持續，11月10日國防部長曾對中國在西太平洋的反介入演訓表達關切；本次為11月12日新發生之海空動態。",
+      "impact": "推論：頻繁跨線活動增加台灣監偵與應處負擔及意外升高風險，但不代表已發生封鎖或交戰。",
+      "follow_up": "追蹤國防部後續24小時動態、共艦數量、實際航跡與中國官方說明。",
+      "source": "中央社／台灣國防部",
+      "url": "https://www.cna.com.tw/news/aipl/202611120187.aspx",
+      "published_at": "2026-11-12T14:37:00+08:00",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261113-002",
+      "category": "world-energy",
+      "title": "沙烏地能源設施與荷莫茲航運風險推升11月12日國際油價",
+      "summary": "路透社11月12日報導，布蘭特原油結算上漲3.06美元至每桶95.82美元，WTI上漲2.21美元至88.74美元。市場關注沙烏地能源設施遭襲及荷莫茲海峽航運受阻；葉門胡塞武裝宣稱發動攻擊，沙國稱攔截兩架無人機。伊朗稱海峽有四艘油輪遭攻擊，路透社未能獨立證實。",
+      "background": "中東軍事衝突與航運保險成本持續影響能源供應預期；同時市場評估美伊外交進展與OPEC+產量。",
+      "impact": "推論：若航道受阻或能源設施持續遭攻擊，亞洲能源進口成本與通膨風險可能升高；單日油價變動不等於長期供應中斷。",
+      "follow_up": "核對船舶追蹤、沙國官方設施損害、油輪攻擊獨立證據、油價及保費。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/business/energy/oil-prices-drop-more-than-1-hopes-iran-ukraine-peace-talks-pressure-markets-2026-11-12/",
+      "published_at": "2026-11-12",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261113-003",
+      "category": "world-tech",
+      "title": "軟銀取消部分美國資料中心設備訂單，引發AI基建需求過度預訂疑慮",
+      "summary": "路透Breakingviews 11月11日分析指出，軟銀因取消美國資料中心設備訂單認列約37億美元費用，先前預訂超過13GW燃氣渦輪機容量，部分超過現有主要專案所需。文章認為此事引發AI基建設備可能過度預訂的疑慮。",
+      "background": "AI資料中心建設帶動燃氣渦輪機、供電設備及工程供應鏈需求，長交期可能促使企業預留超過短期需求的產能。",
+      "impact": "推論：若其他企業也削減預訂，電力設備及AI基建供應商可能面臨訂單修正；此為評論分析，不是已證實整體AI投資衰退。",
+      "follow_up": "觀察軟銀財報與設備訂單、主要雲端公司資本支出及設備商未履約訂單。",
+      "source": "Reuters Breakingviews（評論分析）",
+      "url": "https://www.reuters.com/commentary/breakingviews/softbanks-turbine-snafu-spins-ai-trade-around-2026-11-11/",
+      "published_at": "2026-11-11",
       "analysis_status": "reviewed"
     }
   ]
