@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-13",
-  "updated_at": "2026-11-13 07:00 Asia/Taipei",
+  "date": "2026-11-14",
+  "updated_at": "2026-11-14 07:00 Asia/Taipei",
   "notice": "僅收錄正文可核實之獨立事件；候選RSS不得視為已審核新聞。",
   "articles": [
     {
@@ -4811,6 +4811,123 @@
       "source": "Reuters Breakingviews（評論分析）",
       "url": "https://www.reuters.com/commentary/breakingviews/softbanks-turbine-snafu-spins-ai-trade-around-2026-11-11/",
       "published_at": "2026-11-11",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261114-001",
+      "category": "tw-policy",
+      "title": "立法院三讀延長產假至14週、陪產假至14日並擴大育兒留停",
+      "summary": "立法院11月13日通過《性別平等工作法》與《就業保險法》修正，產假由8週延長為14週，陪產假由7日延長至14日，育兒留職停薪適用子女年齡由3歲放寬至9歲。",
+      "background": "此前相關措施仍在委員會協商；此次為正式通過的立法進展。",
+      "impact": "推論：有望增加家庭照顧彈性，但雇主調度及給付配套須依施行細則評估。",
+      "follow_up": "追蹤總統公布、2027年施行安排、津貼規則及企業實務。",
+      "source": "Focus Taiwan／中央社",
+      "url": "https://focustaiwan.tw/politics/202611130016",
+      "published_at": "2026-11-13 18:49 Asia/Taipei",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261114-002",
+      "category": "tw-economy",
+      "title": "台股11月13日上漲583點收43,675點",
+      "summary": "台灣加權指數11月13日收43,675.12點，上漲583.25點、漲幅1.35%，成交金額新台幣9,162.6億元。",
+      "background": "全球科技股波動與AI產業消息使市場劇烈震盪，單日反彈不代表風險消失。",
+      "impact": "推論：市場回升可能緩和短期壓力，但須結合外資流向及美國科技股觀察。",
+      "follow_up": "追蹤外資買賣超、半導體權值股、成交量與美國科技股走勢。",
+      "source": "Focus Taiwan／中央社",
+      "url": "https://focustaiwan.tw/business/202611130012",
+      "published_at": "2026-11-13",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261114-003",
+      "category": "tw-safety",
+      "title": "中央氣象署預測11月14日午後西部與宜蘭轉雨",
+      "summary": "中央氣象署11月13日預測，14日上午雲系東移，午後西部及宜蘭可能有陣雨，對流可能伴隨突發強降雨與強風；此為預報，非已發生災情。",
+      "background": "華南雲系移入，台灣天氣由晴朗轉為局部不穩定。",
+      "impact": "推論：午後交通及戶外活動可能受到影響，應依即時預報調整。",
+      "follow_up": "追蹤中央氣象署最新警報、雷達及實際雨量。",
+      "source": "Focus Taiwan／中央社",
+      "url": "https://focustaiwan.tw/society/202611130005",
+      "published_at": "2026-11-13 11:31 Asia/Taipei",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261114-004",
+      "category": "tw-policy",
+      "title": "金管會呼籲金融業加強AI資安攻擊防護",
+      "summary": "中央社11月13日金融新聞報導，金管會示警AI相關資安攻擊風險，呼籲金融機構落實六大防護措施；此為監理提醒，並非證實所有銀行已遭攻擊。",
+      "background": "AI輔助社交工程及自動化攻擊使金融資安監理受到關注。",
+      "impact": "推論：金融業可能增加資安演練與事件通報投入；具體法定義務須以正式規範為準。",
+      "follow_up": "追蹤金管會正式公告、六項措施全文與金融業執行進度。",
+      "source": "中央社",
+      "url": "https://www.cna.com.tw/list/abk.aspx",
+      "published_at": "2026-11-13 19:30 Asia/Taipei",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261114-005",
+      "category": "world-security",
+      "title": "台灣官員指中國11月初在西太平洋展開未公告大型演訓",
+      "summary": "路透社11月13日引述台灣官員指出，中國11月初在台灣周邊及西太平洋進行未公告的大規模海空活動，最多超過100艘海軍及海警船參與；北京未正式宣布演習。",
+      "background": "先前已報導中國區域拒止演訓，此次新增官員對規模、部署與活動性質的詳細說明。",
+      "impact": "推論：可能增加區域誤判與航運安全風險；官員對演訓目的的判斷不等於已證實封鎖計畫。",
+      "follow_up": "追蹤國防部後續海空動態、北京說明與區域國家反應。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/china/china-stages-unannounced-pacific-drills-silent-intimidation-taiwan-officials-say-2026-11-13/",
+      "published_at": "2026-11-13",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261114-006",
+      "category": "world-diplomacy",
+      "title": "美國特使稱推動俄烏大規模換俘並擴大歐洲參與和談",
+      "summary": "美國特使庫許納11月13日表示，華府正推動俄烏戰爭期間可能最大規模的換俘，並稱雙方同意讓歐洲國家參與下一輪美國斡旋談判；尚未宣布完成換俘。",
+      "background": "阿布達比會談後，停火、安全保障與領土爭議仍是主要分歧。",
+      "impact": "推論：換俘可作為建立互信的有限措施，但不代表和平協議已達成。",
+      "follow_up": "追蹤換俘實際名單、下一輪談判時間及正式停火文件。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/europe/kushner-says-us-working-toward-largest-prisoner-exchange-russias-war-ukraine-2026-11-13/",
+      "published_at": "2026-11-13",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261114-007",
+      "category": "world-economy",
+      "title": "全球科技股下跌與美元走強，市場關注輝達管理層變動",
+      "summary": "路透社11月13日市場報導指出，那斯達克指數下跌1.40%，標普500跌0.84%，費城半導體指數跌4%；美元指數升至約19個月高位。",
+      "background": "市場同時消化科技業高層變動、美國物價與聯準會政策預期。",
+      "impact": "推論：半導體類股與利率敏感資產可能持續波動，但單日走勢不足以判定長期趨勢。",
+      "follow_up": "追蹤輝達正式公司公告、通膨數據、Fed表態及半導體指數。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-13/",
+      "published_at": "2026-11-13",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261114-008",
+      "category": "world-tech",
+      "title": "亞馬遜內部構想全球商品資料庫以支援AI購物",
+      "summary": "路透社11月13日報導亞馬遜內部文件曾規劃World Product Graph，彙整品牌及零售商商品資料；亞馬遜表示文件已過時，不一定反映現行計畫，尚無確認上線日期。",
+      "background": "AI購物代理與跨平台商品搜尋正在改變電商競爭。",
+      "impact": "推論：若實施，可能影響零售資料使用與平台競爭，但目前不應視為已正式推出的產品。",
+      "follow_up": "追蹤亞馬遜正式發布、資料授權與競爭監理。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/business/media-telecom/amazons-plan-own-worlds-product-data-fight-ai-shopping-agents-2026-11-13/",
+      "published_at": "2026-11-13",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261114-009",
+      "category": "world-regulation",
+      "title": "美國AI工作小組討論關鍵基礎設施AI資安事件通報",
+      "summary": "路透社11月13日報導，美國政府AI工作小組12日討論鼓勵關鍵基礎設施業者通報AI驅動網路攻擊與漏洞，並研議AI開發者安全事件資訊共享標準；尚未形成正式新法。",
+      "background": "銀行、能源及緊急服務等基礎設施面臨AI自動化攻擊風險。",
+      "impact": "推論：若形成政策，可能提高開發者及基礎設施業者通報與治理要求。",
+      "follow_up": "追蹤白宮正式政策、資安資訊共享法續期及標準草案。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/us/trumps-ai-task-force-met-thursday-discussed-ai-powered-cyberattacks-2026-11-13/",
+      "published_at": "2026-11-13",
       "analysis_status": "reviewed"
     }
   ]
