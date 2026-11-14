@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-14",
-  "updated_at": "2026-11-14 07:00 Asia/Taipei",
+  "date": "2026-11-15",
+  "updated_at": "2026-11-15 07:00 Asia/Taipei",
   "notice": "僅收錄正文可核實之獨立事件；候選RSS不得視為已審核新聞。",
   "articles": [
     {
@@ -4928,6 +4928,71 @@
       "source": "Reuters",
       "url": "https://www.reuters.com/world/us/trumps-ai-task-force-met-thursday-discussed-ai-powered-cyberattacks-2026-11-13/",
       "published_at": "2026-11-13",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261115-001",
+      "category": "intl-security",
+      "title": "烏克蘭總統稱美方曾提出以頓巴斯撤軍交換北約會員資格的構想",
+      "summary": "澤倫斯基11月14日表示，美方談判代表曾在阿布達比談判期間提出烏克蘭撤出頓巴斯、換取北約會員資格的構想；他拒絕割讓領土，並表示完整協議可能交付公投。此為烏方對談判內容的說法，並非已達成方案。",
+      "background": "美俄烏在阿布達比磋商停火、領土及安全保障，領土爭議仍是核心障礙。",
+      "impact": "推論：將領土與北約安全保障連結可能加劇國內政治與盟國協調難度；不代表北約已同意接納烏克蘭。",
+      "follow_up": "追蹤美國及北約回應、換俘是否落實、後續談判及任何正式協議。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/europe/us-floated-idea-ukraine-ceding-donbas-nato-membership-zelenskiy-says-2026-11-14/",
+      "published_at": "2026-11-14",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261115-002",
+      "category": "intl-diplomacy",
+      "title": "白宮稱川普將在中國會晤時提出核武削減議題",
+      "summary": "白宮11月14日表示，川普計畫在下週中國深圳相關領袖會晤期間與普丁、習近平討論核武削減，並不預期立即達成協議；中俄是否參與具體裁軍討論仍不明確。",
+      "background": "美俄新START條約已到期，中國核武議題長期未納入美俄雙邊軍控架構。",
+      "impact": "推論：若開啟三方接觸，可能為後續軍控對話創造條件，但短期內達成可核查協議的可能性仍不確定。",
+      "follow_up": "觀察中俄官方確認、會晤議程、核查機制及後續談判安排。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/china/trump-meet-putin-xi-china-white-house-says-2026-11-14/",
+      "published_at": "2026-11-14",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261115-003",
+      "category": "intl-economy",
+      "title": "美中首次貿易理事會討論關稅與農產品採購，尚未宣布協議",
+      "summary": "中國商務部表示，美中官員11月13日首次舉行貿易理事會會議，討論關稅、農產品及既有磋商落實；11月14日報導指出雙方未宣布新協議。",
+      "background": "美中正就關稅減讓與農產品採購協商，雙方領袖預期下週會晤。",
+      "impact": "推論：持續對話有助降低貿易不確定性，但未定案的關稅安排不應視為已生效。",
+      "follow_up": "追蹤正式共同聲明、關稅清單、農產品採購數據及領袖會談結果。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/china/china-us-discuss-tariffs-farm-trade-first-trade-council-meeting-2026-11-14/",
+      "published_at": "2026-11-14",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261115-004",
+      "category": "intl-public-safety",
+      "title": "美國航空管制設備老化引發全國航班中斷與現代化討論",
+      "summary": "路透11月14日整理指出，11月13日美國空管通訊中斷引發全國停飛，取消超過1000航班、延誤近萬航班；過往亦有多次通訊與資料系統故障。",
+      "background": "美國FAA航空管制設備老化、備援不足；國會已核准部分現代化經費。",
+      "impact": "推論：系統冗餘不足可能持續造成大規模交通與經濟損失；目前不能認定所有事件具有相同技術根因。",
+      "follow_up": "追蹤FAA事故調查、系統升級預算、備援部署與航班恢復。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/business/aerospace-defense/old-air-traffic-control-equipment-regularly-disrupts-us-flights-2026-11-14/",
+      "published_at": "2026-11-14",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261115-005",
+      "category": "intl-tech",
+      "title": "AI資料中心金屬需求分析：電網投資可能比機房本身更關鍵",
+      "summary": "路透11月14日評論分析指出，AI資料中心建設增加金屬需求，但銅與鋁需求的更大變數可能是電網、變電站與發電設備；需求規模與時程仍有不確定性。",
+      "background": "AI算力擴張提高電力與基礎建設需求，資料中心建置與電網接入時程可能不一致。",
+      "impact": "推論：金屬產業機會不等於已確認訂單；應區分直接機房用量與間接電力基建需求。",
+      "follow_up": "追蹤電網核准與開工進度、金屬訂單及雲端業者資本支出。",
+      "source": "Reuters Breakingviews / Open Interest",
+      "url": "https://www.reuters.com/commentary/reuters-open-interest/metals-age-ai-game-changer-or-hyperscale-hype-2026-11-14/",
+      "published_at": "2026-11-14",
       "analysis_status": "reviewed"
     }
   ]
