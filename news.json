@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-15",
-  "updated_at": "2026-11-15 07:00 Asia/Taipei",
+  "date": "2026-11-16",
+  "updated_at": "2026-11-16 07:00 Asia/Taipei",
   "notice": "僅收錄正文可核實之獨立事件；候選RSS不得視為已審核新聞。",
   "articles": [
     {
@@ -4993,6 +4993,84 @@
       "source": "Reuters Breakingviews / Open Interest",
       "url": "https://www.reuters.com/commentary/reuters-open-interest/metals-age-ai-game-changer-or-hyperscale-hype-2026-11-14/",
       "published_at": "2026-11-14",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261116-001",
+      "category": "tw-policy",
+      "title": "外交部說明訪賓接待預算增加逾1.5億元及立院凍結款",
+      "summary": "外交部11月15日向立法院說明，115年度訪賓接待預算為6億9570萬1000元，較上年增加1億5551萬元；立委質疑效益並凍結1500萬元。外交部稱增加原因包含國際交流需求、對抗滲透及旅運成本上漲。",
+      "background": "外交部透過國際邀訪維持友邦及非邦交國互動，預算成效及量化指標受到國會檢視。",
+      "impact": "推論：若邀訪成效缺乏可比較指標，預算審議爭議可能持續；外交部提出的效益屬機關說明，尚非獨立因果評估。",
+      "follow_up": "追蹤凍結預算解凍條件、訪賓成果量化指標及立院審查結果。",
+      "source": "中央社",
+      "url": "https://www.cna.com.tw/news/aipl/202611150197.aspx",
+      "published_at": "2026-11-15 21:53 Asia/Taipei",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261116-002",
+      "category": "intl-regulation",
+      "title": "東協與中國未能完成南海行為準則談判",
+      "summary": "路透11月15日報導，東協與中國在菲律賓擔任主席期間未能敲定南海行為準則，雖草案約八成內容取得暫時共識，但法律拘束力與適用範圍等仍有歧見。",
+      "background": "南海海域主權及海洋權益主張重疊，2016年仲裁結果及海上摩擦使規則談判具高度政治敏感性。",
+      "impact": "推論：若無法釐清法律效力及適用水域，行為準則可能難以有效降低海上摩擦；八成文字共識不等於協議完成。",
+      "follow_up": "追蹤新任東協主席國協商、最終文本法律效力及各國正式立場。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/china/asean-china-fail-conclude-south-china-sea-code-conduct-2026-11-15/",
+      "published_at": "2026-11-15",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261116-003",
+      "category": "intl-economy",
+      "title": "中東衝突與荷莫茲風險拖累波灣股市",
+      "summary": "路透11月15日報導，沙烏地阿拉伯主要股指下跌約0.7%，卡達股指下跌約1.8%；投資人關注胡塞攻擊、荷莫茲海峽航運風險與區域能源供應。",
+      "background": "波灣金融市場與石油、天然氣及跨境航運高度連動，近期區域衝突提高風險溢價。",
+      "impact": "推論：持續攻擊可能推高能源與運輸成本，但單日股市跌幅不能單獨證明長期經濟衰退。",
+      "follow_up": "追蹤航運保費、能源出口、波灣股市與區域官方安全通報。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/middle-east/gulf-bourses-slide-hormuz-tensions-houthi-strikes-rattle-traders-2026-11-15/",
+      "published_at": "2026-11-15",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261116-004",
+      "category": "intl-security",
+      "title": "巴林稱攔截伊朗空中攻擊，伊朗宣稱鎖定美軍設施",
+      "summary": "巴林11月15日表示防空系統攔截數次伊朗空中攻擊；伊朗革命衛隊聲稱以六架無人機攻擊駐有美軍的基地雷達。美國與巴林當局當時未確認伊朗所稱命中結果。",
+      "background": "中東衝突延伸至波灣國家，美軍設施與區域防空系統面臨升高的安全壓力。",
+      "impact": "推論：若攻擊持續，可能增加區域衝突擴大的風險；伊朗宣稱的戰果不得視為已獨立核實。",
+      "follow_up": "追蹤巴林、美軍官方損害評估、後續防空警報與外交斡旋。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/middle-east/bahrains-interior-ministry-issues-alerts-potential-threats-2026-11-15/",
+      "published_at": "2026-11-15",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261116-005",
+      "category": "intl-politics",
+      "title": "摩爾多瓦親俄自治區加告茲舉行提前選舉",
+      "summary": "摩爾多瓦加告茲自治區11月15日舉行領導人及地方議會提前選舉，背景為前領導人因非法轉移俄羅斯資金予政黨遭判刑；選舉結果當時尚待確認。",
+      "background": "加告茲政治取向與摩爾多瓦親歐盟中央政府存在分歧，俄羅斯影響力及地方自治問題持續受到關注。",
+      "impact": "推論：選舉可能影響摩爾多瓦內部政治整合與歐盟入盟進程，但不得預判勝選者及後續政策。",
+      "follow_up": "追蹤官方選舉結果、投票爭議、中央與地方政府互動。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/restive-pro-russian-moldovan-region-holds-elections-2026-11-15/",
+      "published_at": "2026-11-15",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261116-006",
+      "category": "intl-security",
+      "title": "葉門親沙烏地政府軍自曼德海峽周邊撤離增援亞丁",
+      "summary": "路透11月15日報導，沙烏地支持的葉門政府軍撤出曼德海峽附近陣地，轉向增援亞丁；胡塞武裝近期沿紅海沿岸推進，並宣稱攻擊沙國設施，部分攻擊細節尚未獲獨立確認。",
+      "background": "曼德海峽是紅海與亞丁灣之間重要航運要道，葉門內戰與區域衝突相互影響。",
+      "impact": "推論：兵力重部署可能提高紅海航運與人道援助風險，但不等於胡塞已控制曼德海峽。",
+      "follow_up": "追蹤戰線變化、商船通行、聯合國人道通報與各方確認的攻擊結果。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/middle-east/anti-houthi-forces-retreat-yemen-iran-strikes-bahrain-2026-11-15/",
+      "published_at": "2026-11-15",
       "analysis_status": "reviewed"
     }
   ]
