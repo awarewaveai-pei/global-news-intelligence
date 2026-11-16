@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-16",
-  "updated_at": "2026-11-16 07:00 Asia/Taipei",
+  "date": "2026-11-17",
+  "updated_at": "2026-11-17T07:03:00+08:00",
   "notice": "僅收錄正文可核實之獨立事件；候選RSS不得視為已審核新聞。",
   "articles": [
     {
@@ -5071,6 +5071,97 @@
       "source": "Reuters",
       "url": "https://www.reuters.com/world/middle-east/anti-houthi-forces-retreat-yemen-iran-strikes-bahrain-2026-11-15/",
       "published_at": "2026-11-15",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261117-001",
+      "category": "tw-economy",
+      "title": "台股11月16日重挫6.03%，創史上第二大單日跌點",
+      "summary": "中央社報導台灣加權指數11月16日下跌2,635.04點，收41,040.08點，跌幅6.03%，成交值約新台幣8,450.6億元。報導引述市場人士將賣壓與美國科技股、輝達高層異動疑慮及期貨結算前交易連結。",
+      "background": "台股高度集中電子權值股，容易受國際科技股估值與衍生性商品交易影響。",
+      "impact": "推論：短期市場波動可能加劇，但單日下跌不能證明半導體需求已出現長期衰退。",
+      "follow_up": "觀察外資買賣超、期貨結算及科技企業正式公告。",
+      "source": "Focus Taiwan／中央社",
+      "url": "https://focustaiwan.tw/business/202611160014",
+      "published_at": "2026-11-16",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261117-002",
+      "category": "tw-tech",
+      "title": "台積電前三季取得海外政府補助約新台幣1,675.86億元",
+      "summary": "中央社11月14日依台積電財報報導，台積電2026年前三季在美國、日本、德國及中國獲得政府補助合計新台幣1,675.86億元，為紀錄高點。",
+      "background": "台積電正推進多國晶圓廠與設備投資，各地政府以補助支持半導體產能。",
+      "impact": "推論：補助有助分攤海外擴產成本，但不能直接推定各廠獲利或建廠進度。",
+      "follow_up": "觀察財報附註、補助附帶條件及海外廠投產進度。",
+      "source": "Focus Taiwan／中央社",
+      "url": "https://focustaiwan.tw/business/202611140005",
+      "published_at": "2026-11-14",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261117-003",
+      "category": "tw-public",
+      "title": "中央氣象署預測週四起高山可能降雪，週末低溫下探11度",
+      "summary": "中央社11月16日引述中央氣象署預報，週四夜間至週五海拔3,500公尺以上高山可能降雪，週五至週日部分平地低溫可能降至攝氏11度。此為預測而非已發生天氣。",
+      "background": "東北季風增強將使台灣北部及東北部降溫，山區氣象條件變化較大。",
+      "impact": "推論：高山交通與戶外活動需注意低溫風險，實際降雪仍受水氣及溫度影響。",
+      "follow_up": "追蹤氣象署即時預報、低溫特報及山區交通管制。",
+      "source": "Focus Taiwan／中央社",
+      "url": "https://focustaiwan.tw/society/202611160020",
+      "published_at": "2026-11-16",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261117-004",
+      "category": "tw-policy",
+      "title": "台灣核能政策公投舉行電視意見發表會",
+      "summary": "中央社11月16日報導，核能支持者與反對團體代表在中選會主辦的電視意見發表會辯論核電穩定供應、核安與重啟可行性；公投預定11月28日舉行。",
+      "background": "能源轉型、核電安全與電力供應是台灣長期政策爭議。",
+      "impact": "推論：辯論有助呈現政策分歧，但不能據此預測公投結果或認定核電廠已具備重啟條件。",
+      "follow_up": "觀察中選會公投資訊、核安主管機關說明及11月28日投票結果。",
+      "source": "Focus Taiwan／中央社",
+      "url": "https://focustaiwan.tw/politics/202611160018",
+      "published_at": "2026-11-16",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261117-005",
+      "category": "intl-tech",
+      "title": "美國與九個夥伴簽署AI供應鏈及關鍵基礎設施保護宣言",
+      "summary": "路透11月16日引述美國國務院稱，美國、澳洲、印度、以色列、日本、韓國、卡達、新加坡、阿聯及英國簽署宣言，協調保護AI相關技術與關鍵基礎設施供應鏈。報導未提供完整執行措施。",
+      "background": "AI運算、能源與關鍵零組件供應鏈正成為國際科技安全合作議題。",
+      "impact": "推論：合作可能影響AI供應鏈風險管理與技術政策，但宣言不等於已具強制力的國際條約。",
+      "follow_up": "追蹤宣言正式文本、各國落實措施與企業合規要求。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/china/us-allies-team-up-protect-ai-tech-infrastructure-amid-china-rivalry-2026-11-16/",
+      "published_at": "2026-11-16",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261117-006",
+      "category": "intl-politics",
+      "title": "中美俄領袖擬於深圳會面，三方將討論戰略穩定",
+      "summary": "路透11月16日引述中國外交部與克里姆林宮表示，習近平、川普與普丁計畫於11月19日在深圳會面；中國稱會談具重要意義，但尚未公布正式成果或完整議程。",
+      "background": "三方核武政策、貿易與地緣政治分歧使領袖對話受到高度關注。",
+      "impact": "推論：會面可能為軍控與危機管理提供渠道，但不能視為裁軍協議已達成。",
+      "follow_up": "追蹤三國正式聲明、實際會議及核武議題的可核實承諾。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/china/china-says-xi-putin-trump-meeting-has-groundbreaking-significance-2026-11-16/",
+      "published_at": "2026-11-16",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261117-007",
+      "category": "intl-energy",
+      "title": "歐洲冬季天然氣庫存偏低，液化天然氣進口競爭升溫",
+      "summary": "路透11月16日市場分析指出，歐盟及英國11月11日天然氣庫存約810太瓦時，較十年同期平均低約兩成；歐洲增加液化天然氣進口，但中東供應風險仍影響市場。",
+      "background": "歐洲減少俄羅斯管線天然氣後，更依賴國際液化天然氣供應。",
+      "impact": "推論：寒流與航運中斷可能進一步推高氣價及亞洲採購成本；這是供需風險分析，並非已確定短缺。",
+      "follow_up": "追蹤庫存、現貨價格、氣溫與卡達出口恢復情況。",
+      "source": "Reuters Open Interest（市場分析）",
+      "url": "https://www.reuters.com/commentary/reuters-open-interest/europe-draws-lng-asia-not-fast-enough-2026-11-16/",
+      "published_at": "2026-11-16",
       "analysis_status": "reviewed"
     }
   ]
