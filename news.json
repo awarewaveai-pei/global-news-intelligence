@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-17",
-  "updated_at": "2026-11-17T07:03:00+08:00",
+  "date": "2026-11-18",
+  "updated_at": "2026-11-18T07:00:00+08:00",
   "notice": "僅收錄正文可核實之獨立事件；候選RSS不得視為已審核新聞。",
   "articles": [
     {
@@ -5162,6 +5162,71 @@
       "source": "Reuters Open Interest（市場分析）",
       "url": "https://www.reuters.com/commentary/reuters-open-interest/europe-draws-lng-asia-not-fast-enough-2026-11-16/",
       "published_at": "2026-11-16",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261118-001",
+      "category": "tw-policy",
+      "title": "普發現金2萬元特別條例朝野協商未達共識",
+      "summary": "立法院財政委員會11月17日就國民黨團提出的普發現金2萬元特別條例進行協商，約一小時後仍無共識，移請院會續協商；草案尚未三讀。",
+      "background": "行政院先前提出普發1萬元方案，國民黨團主張加碼至2萬元；雙方對財源與憲政程序有分歧。",
+      "impact": "推論：若後續立法通過，將影響財政支出與民間消費，但不能將提案視為已實施。",
+      "follow_up": "追蹤11月20日院會議程、正式表決及財政部財源試算。",
+      "source": "中央社",
+      "url": "https://www.cna.com.tw/news/aipl/202611170152.aspx",
+      "published_at": "2026-11-17",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261118-002",
+      "category": "tw-economy",
+      "title": "美國半導體股下跌，台積電ADR跌逾6%",
+      "summary": "中央社11月17日報導，美股前一交易日費城半導體指數下跌5.28%，台積電ADR下跌6.34%；市場關注輝達財報及台股後市。",
+      "background": "台灣電子權值股與全球AI產業估值及美國市場高度連動；11月16日台股已大幅下跌。",
+      "impact": "推論：短期波動風險升高，但單一交易日價格不能推定長期訂單衰退。",
+      "follow_up": "觀察輝達財報、台指期結算與台積電正式營運數據。",
+      "source": "中央社",
+      "url": "https://www.cna.com.tw/news/afe/202611170020.aspx",
+      "published_at": "2026-11-17",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261118-003",
+      "category": "tw-defense",
+      "title": "巴布亞紐幾內亞總理向習近平談關閉台灣代表處的困難",
+      "summary": "路透11月17日報導，巴布亞紐幾內亞總理馬拉佩向習近平表示關閉台灣代表處並不容易，台灣先前宣布關閉該處並停止採購該國液化天然氣。",
+      "background": "太平洋島國是兩岸外交競爭的重要區域，台灣指責北京施壓；相關主張應分別歸屬消息來源。",
+      "impact": "推論：此事可能影響台灣與太平洋國家的實質關係及能源採購布局。",
+      "follow_up": "追蹤台灣外交部回應、雙邊經貿調整與其他太平洋國家立場。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/china/papua-new-guineas-prime-minister-says-taiwan-does-not-operate-there-anymore-2026-11-17/",
+      "published_at": "2026-11-17",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261118-004",
+      "category": "intl-security",
+      "title": "美伊在外交斡旋期間仍交火，波灣航運風險持續",
+      "summary": "路透11月17日報導，美國戰機攻擊伊朗格什姆島飛彈發射地點，伊朗宣稱攻擊巴林美軍雷達設施；巴林稱已攔截且未受損。阿曼與卡達同時進行外交斡旋。",
+      "background": "美伊與區域衝突已干擾荷莫茲海峽航運，雙方戰果宣稱需區分獨立核實與官方說法。",
+      "impact": "推論：持續交火可能推升能源及航運保險成本，也可能削弱停火斡旋。",
+      "follow_up": "追蹤美巴官方損害報告、阿曼卡達外交成果與船舶安全通報。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/middle-east/oman-iran-foreign-ministers-discuss-safeguarding-maritime-corridors-2026-11-17/",
+      "published_at": "2026-11-17",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261118-005",
+      "category": "intl-politics",
+      "title": "川普赴菲律賓與馬可仕會談，南海安全議題受關注",
+      "summary": "路透11月17日報導，美國總統川普預定18日在馬尼拉與菲律賓總統馬可仕會談，菲方預期尋求更強安全保證；會談結果當時尚未公布。",
+      "background": "美菲防務合作與南海爭議牽動區域安全，川普隨後預計赴中國參加領袖會晤。",
+      "impact": "推論：美菲安全承諾的措辭可能影響區域風險預期，但不能預判具體協議。",
+      "follow_up": "追蹤18日會談是否舉行、雙方正式聲明及海上合作措施。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/china/trump-meet-marcos-manila-before-china-talks-2026-11-17/",
+      "published_at": "2026-11-17",
       "analysis_status": "reviewed"
     }
   ]
