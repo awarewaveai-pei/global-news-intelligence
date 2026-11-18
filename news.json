@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-18",
-  "updated_at": "2026-11-18T07:00:00+08:00",
+  "date": "2026-11-19",
+  "updated_at": "2026-11-19T07:02:54+08:00",
   "notice": "僅收錄正文可核實之獨立事件；候選RSS不得視為已審核新聞。",
   "articles": [
     {
@@ -5227,6 +5227,45 @@
       "source": "Reuters",
       "url": "https://www.reuters.com/world/china/trump-meet-marcos-manila-before-china-talks-2026-11-17/",
       "published_at": "2026-11-17",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261119-001",
+      "category": "tw-defense",
+      "title": "陸軍無人系統訓練指揮部與虎尾科技大學簽署合作備忘錄",
+      "summary": "11月18日陸軍無人系統訓練指揮部與國立虎尾科技大學簽署合作備忘錄，規劃共同推動無人系統技術研發與人才培育；簽約不等於相關裝備已部署。",
+      "background": "無人載具在軍事偵察、訓練與作戰支援的重要性提升，軍方與大學合作有助串接技術與訓練需求。",
+      "impact": "推論：可能促進本土無人系統人才與測試能量，但實際戰力成效尚待驗證。",
+      "follow_up": "追蹤合作專案、經費、課程、研發成果及實際部隊驗證。",
+      "source": "中央社",
+      "url": "https://www.cna.com.tw/news/aloc/202611180157.aspx",
+      "published_at": "2026-11-18 14:10 Asia/Taipei",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261119-002",
+      "category": "tw-cross-strait",
+      "title": "台灣APEC領袖代表抵達深圳，國台辦未正面回答交流安排",
+      "summary": "11月18日施振榮以台灣領袖代表身分抵達深圳參加APEC會議。國台辦對是否安排與施振榮交流未正面答覆，重申其一中立場。",
+      "background": "APEC是台灣參與區域經濟合作的重要平台，台灣參與形式及兩岸互動長期受到關注。",
+      "impact": "推論：會議期間互動安排可能影響台灣參與國際場合的外交訊號，但未獲答覆不代表交流已被正式拒絕。",
+      "follow_up": "追蹤APEC會議實際參與、雙邊接觸與正式聲明。",
+      "source": "中央社",
+      "url": "https://www.cna.com.tw/news/acn/202611180119.aspx",
+      "published_at": "2026-11-18 12:42 Asia/Taipei",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261119-003",
+      "category": "intl-diplomacy",
+      "title": "APEC峰會前習近平主張開放貿易，川普抵達深圳",
+      "summary": "11月18日路透報導，習近平在APEC場合主張自由開放貿易及降低關稅，川普抵達深圳準備與習近平及普丁會談；尚無三方會談正式成果。",
+      "background": "美中在先進AI晶片出口限制、關稅及產業政策上存在分歧；俄羅斯同時面臨西方制裁。",
+      "impact": "推論：領袖會晤可能影響全球貿易與安全政策預期，但政策宣示不等於具約束力協議。",
+      "follow_up": "核對11月19日會談是否舉行、聯合聲明、關稅措施及軍控議題。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/chinas-xi-calls-free-open-trade-apec-summit-2026-11-18/",
+      "published_at": "2026-11-18 Asia/Taipei",
       "analysis_status": "reviewed"
     }
   ]
