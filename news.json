@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-19",
-  "updated_at": "2026-11-19T07:02:54+08:00",
+  "date": "2026-11-20",
+  "updated_at": "2026-11-20T07:00:57+08:00",
   "notice": "僅收錄正文可核實之獨立事件；候選RSS不得視為已審核新聞。",
   "articles": [
     {
@@ -5266,6 +5266,97 @@
       "source": "Reuters",
       "url": "https://www.reuters.com/world/chinas-xi-calls-free-open-trade-apec-summit-2026-11-18/",
       "published_at": "2026-11-18 Asia/Taipei",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261120-001",
+      "category": "tw-security",
+      "title": "美國國會委員會示警台海封鎖風險，行政院表示持續與美協調",
+      "summary": "美中經濟暨安全檢討委員會11月18日年度報告評估，未來24個月北京對台採取隔離或封鎖的風險可能提高；台灣行政院19日表示持續與美方協調。這是風險評估，非已發生封鎖。",
+      "background": "報告將台灣2026地方選舉與2028總統選舉視為影響北京決策的觀察因素；行政院及陸委會回應。",
+      "impact": "推論：政府與企業可能加強供應鏈、通訊及海運韌性準備；不能將評估視為已確定的軍事行動。",
+      "follow_up": "追蹤美方完整年度報告、台灣官方應變措施與海空域實際活動。",
+      "source": "中央社",
+      "url": "https://www.cna.com.tw/news/aipl/202611190192.aspx",
+      "published_at": "2026-11-19 14:54 Asia/Taipei",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261120-002",
+      "category": "tw-finance",
+      "title": "金管會擴大限空措施，1028檔股票11月20日受平盤下放空限制",
+      "summary": "金管會19日宣布，個股當日跌幅達3.5%以上，隔日禁止低於前收盤價放空；另調降盤中借券賣出委託量限制。依當日跌幅，1028檔上市櫃股票20日適用。",
+      "background": "台股19日收38426.89點，下跌1768.02點；主管機關指出市場波動及國際不確定性。",
+      "impact": "推論：措施可能降低部分放空交易量，但不保證股價止跌，也可能影響交易流動性。",
+      "follow_up": "追蹤20日實際執行情況、成交量、限制範圍及金管會退場條件。",
+      "source": "中央社",
+      "url": "https://www.cna.com.tw/news/afe/202611190334.aspx",
+      "published_at": "2026-11-19 19:03 Asia/Taipei",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261120-003",
+      "category": "tw-policy",
+      "title": "台加貿易合作架構協議待加拿大完成內部程序",
+      "summary": "行政院經貿談判辦公室19日表示，台加貿易合作架構協議尚待加拿大完成內部程序，盼儘速簽署；加拿大總理前一天表示近期可能簽署。",
+      "background": "雙方2025年3月完成協商，後續加拿大曾徵詢省政府意見；目前尚未正式簽署。",
+      "impact": "推論：簽署可為後續經貿合作建立平台，但實際市場准入效益須視協議內容與後續執行。",
+      "follow_up": "追蹤加拿大正式公告、簽署日期、協議全文及實施安排。",
+      "source": "中央社",
+      "url": "https://www.cna.com.tw/news/aipl/202611190145.aspx",
+      "published_at": "2026-11-19 13:41 Asia/Taipei",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261120-004",
+      "category": "tw-tech",
+      "title": "外媒稱台積電與三星暫停部分對中晶片出貨，等待美國出口許可",
+      "summary": "中央社19日引述金融時報知情人士報導，美國出口管制新規出台後，台積電與三星暫停部分對中國客戶的處理器出貨並申請許可；此為媒體引述匿名消息，非兩家公司全面停供的確認。",
+      "background": "美國持續管制中國取得先進AI運算晶片，跨國晶圓代工企業面臨許可及合規要求。",
+      "impact": "推論：若措施持續，可能延長中國客戶交貨時間並增加供應鏈合規成本；影響範圍仍待官方與公司確認。",
+      "follow_up": "追蹤美國商務部正式規則、企業公告、許可審核及受影響產品清單。",
+      "source": "中央社轉述金融時報",
+      "url": "https://www.cna.com.tw/news/aopl/202611190353.aspx",
+      "published_at": "2026-11-19 20:09 Asia/Taipei",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261120-005",
+      "category": "int-politics",
+      "title": "美中俄深圳峰會發布非拘束性和平宣言，未啟動具體三方軍控談判",
+      "summary": "美國、中國與俄羅斯領袖19日在深圳會晤並發表象徵性和平宣言，重申核戰不可打，但沒有宣布三方軍控談判時程或具體核武限制協議。",
+      "background": "會談在APEC期間舉行；美俄中對軍控、烏克蘭與伊朗等議題存在重大分歧。",
+      "impact": "推論：高層接觸可能降低溝通障礙，但非拘束性宣言不足以證明安全風險已下降。",
+      "follow_up": "追蹤三國官方宣言全文、是否設立軍控工作層級對話及盟友反應。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/china/trumps-historic-meeting-with-xi-putin-headlines-asia-trip-2026-11-18/",
+      "published_at": "2026-11-19 Reuters",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261120-006",
+      "category": "int-law",
+      "title": "國際法院裁定緬甸對洛興雅人犯下種族滅絕",
+      "summary": "國際法院19日就緬甸2017年軍事行動作出判決，認定對洛興雅人的殺害、性暴力與村莊破壞構成種族滅絕，並要求賠償、避免再犯及保障安全返回。",
+      "background": "甘比亞2019年提出訴訟；超過百萬洛興雅人仍流離失所。國際法院處理國家責任，並不直接審判個人刑責。",
+      "impact": "推論：裁決可能影響國際追責與人道援助政策，但執行仍面臨緬甸境內戰事及國際司法執行限制。",
+      "follow_up": "追蹤判決全文、賠償程序、緬甸官方回應及難民安全返鄉條件。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/asia-pacific/top-un-court-rule-alleged-genocide-myanmars-rohingya-2026-11-18/",
+      "published_at": "2026-11-19 Reuters",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261120-007",
+      "category": "int-climate",
+      "title": "COP31修訂協議草案刪除化石燃料退出措辭",
+      "summary": "土耳其COP31於19日公布修訂談判草案，刪除限制或退出化石燃料的措辭及先前提議的1200億美元調適融資目標；草案尚非正式通過的最終協議。",
+      "background": "各國對能源轉型速度、電氣化與開發中國家融資責任有分歧，談判預定20日結束。",
+      "impact": "推論：若弱化條文保留至最終協議，可能削弱明確政策訊號；但談判仍可能修正。",
+      "follow_up": "追蹤最終協議、化石燃料條文、調適融資數字及2035電氣化目標。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/sustainability/cop/cop31-negotiators-publish-revised-deal-text-with-no-mention-fossil-fuels-2026-11-19/",
+      "published_at": "2026-11-19 Reuters",
       "analysis_status": "reviewed"
     }
   ]
