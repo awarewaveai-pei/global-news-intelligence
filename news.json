@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-20",
-  "updated_at": "2026-11-20T07:00:57+08:00",
+  "date": "2026-11-21",
+  "updated_at": "2026-11-21T07:03:47+08:00",
   "notice": "僅收錄正文可核實之獨立事件；候選RSS不得視為已審核新聞。",
   "articles": [
     {
@@ -5357,6 +5357,58 @@
       "source": "Reuters",
       "url": "https://www.reuters.com/sustainability/cop/cop31-negotiators-publish-revised-deal-text-with-no-mention-fossil-fuels-2026-11-19/",
       "published_at": "2026-11-19 Reuters",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261121-001",
+      "category": "tw-policy",
+      "title": "立法院三讀普發現金2萬元特別條例",
+      "summary": "立法院11月20日以50票贊成、46票反對，三讀通過全民共享經濟成果及穩定民生特別條例，涉及每人普發新台幣2萬元；三讀不等於款項已發放。",
+      "background": "此案此前歷經朝野協商未果，行政院與各黨團對財源及財政紀律有不同立場。",
+      "impact": "推論：若完成後續法定程序並編列執行經費，可能提高短期家庭可支配所得，但財政成本與物價效果尚待評估。",
+      "follow_up": "追蹤公布與施行程序、財源及實際發放時間。",
+      "source": "中央社",
+      "url": "https://www.cna.com.tw/news/aipl/202611200188.aspx",
+      "published_at": "2026-11-20",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261121-002",
+      "category": "tw-policy",
+      "title": "立法院三讀6076.3億元追加預算，撥補中油台電並通過油電凍漲主決議",
+      "summary": "立法院11月20日三讀通過115年度中央政府總預算追加預算案，歲出6076.3億元全數照列，其中撥補中油、台電1725億元，並通過要求2028年1月底前油電全面凍漲的主決議。",
+      "background": "追加預算涵蓋民生穩定、社福、國防與災後重建等用途；主決議與法定預算的法律效果應分別理解。",
+      "impact": "推論：預算可緩解能源事業資金壓力，但價格凍漲可能提高未來財務與財政負擔。",
+      "follow_up": "追蹤行政院執行細節、能源事業財報及價格政策。",
+      "source": "中央社",
+      "url": "https://www.cna.com.tw/news/aipl/202611200151.aspx",
+      "published_at": "2026-11-20",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261121-003",
+      "category": "tw-finance",
+      "title": "台股11月20日再跌6.23%，收36033.29點",
+      "summary": "台股11月20日收36033.29點，單日下跌2393.60點或6.23%，成交金額8773.5億元；金管會表示11月9日至20日台股跌幅9.24%，大於同期日韓市場。",
+      "background": "金管會先後實施限空等穩定措施，市場仍受AI產業預期與全球科技股波動影響。",
+      "impact": "推論：市場波動可能增加流動性與投資風險，但單日價格變化不能直接證明產業基本面惡化。",
+      "follow_up": "追蹤外資、借券交易、國安基金動向及企業營運數據。",
+      "source": "中央社",
+      "url": "https://www.cna.com.tw/news/afe/202611200271.aspx",
+      "published_at": "2026-11-20",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261121-004",
+      "category": "intl-diplomacy",
+      "title": "APEC期間加拿大與日本推進多邊經貿與供應鏈合作",
+      "summary": "路透社11月20日報導，加拿大與中國延長部分關稅安排至2028年，加拿大另強化與菲律賓及東協貿易關係；日本則推動與東協、韓國及歐洲夥伴的關鍵礦產與供應鏈合作。",
+      "background": "美中俄領袖會晤吸引關注之際，中等強權尋求降低對單一大國市場與供應來源的依賴。",
+      "impact": "推論：多元合作可增加供應鏈韌性，但無法完全取代美中兩國的市場與安全影響力。",
+      "follow_up": "追蹤正式協議文本、關稅實施時程及關鍵礦產投資成果。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/china/trump-courts-xi-putin-middle-powers-make-their-own-moves-2026-11-20/",
+      "published_at": "2026-11-20",
       "analysis_status": "reviewed"
     }
   ]
