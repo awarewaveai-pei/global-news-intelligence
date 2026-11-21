@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-21",
-  "updated_at": "2026-11-21T07:03:47+08:00",
+  "date": "2026-11-22",
+  "updated_at": "2026-11-22T07:00:00+08:00",
   "notice": "僅收錄正文可核實之獨立事件；候選RSS不得視為已審核新聞。",
   "articles": [
     {
@@ -5409,6 +5409,71 @@
       "source": "Reuters",
       "url": "https://www.reuters.com/world/china/trump-courts-xi-putin-middle-powers-make-their-own-moves-2026-11-20/",
       "published_at": "2026-11-20",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261122-001",
+      "category": "tw-economy",
+      "title": "行政院提出四項穩定資本市場裁示",
+      "summary": "行政院長卓榮泰11月21日召集財經首長，要求財政部強化企業融資、信用保證及國安基金穩市力道；金管會維護交易秩序、經濟部協助產業、央行關注匯市。",
+      "background": "台股11月20日重挫，主管機關先前已實施限空措施。",
+      "impact": "推論：融資與穩市措施或有助緩和流動性壓力，但不保證股市止跌。",
+      "follow_up": "追蹤各部會具體措施、國安基金公告與下一交易日市場表現。",
+      "source": "中央社",
+      "url": "https://www.cna.com.tw/news/aipl/202611210106.aspx",
+      "published_at": "2026-11-21",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261122-002",
+      "category": "tw-society",
+      "title": "中央氣象署發布竹苗低溫特報",
+      "summary": "中央氣象署11月21日發布低溫特報，指出21日晚至22日清晨新竹縣、苗栗縣局部可能低於攝氏10度；24日另有東北季風增強。",
+      "background": "東北季風與夜間輻射冷卻造成日夜溫差。",
+      "impact": "推論：長者、慢性病患者及農漁業需注意低溫風險；預報不等於已發生災害。",
+      "follow_up": "追蹤氣象署最新燈號、實測溫度及農業防寒措施。",
+      "source": "中央社",
+      "url": "https://www.cna.com.tw/news/ahel/202611210146.aspx",
+      "published_at": "2026-11-21",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261122-003",
+      "category": "intl-security",
+      "title": "俄羅斯大規模空襲烏克蘭造成平民傷亡",
+      "summary": "路透報導俄羅斯11月20日以數百架無人機及逾百枚飛彈襲擊烏克蘭基礎設施；烏方通報至少8人死亡，基輔橋梁、水電設施及西部鐵路受損。",
+      "background": "俄烏雙方近期互攻基礎設施，克里米亞大橋遭襲後俄方宣稱報復。",
+      "impact": "推論：基礎設施受損可能加劇冬季民生與運輸壓力；軍事目標說法須區分交戰方宣稱。",
+      "follow_up": "追蹤獨立傷亡核實、能源恢復、波蘭空域事件與外交回應。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/europe/fire-broke-out-ukraines-kyiv-after-missile-strike-mayor-says-2026-11-20/",
+      "published_at": "2026-11-21",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261122-004",
+      "category": "intl-climate",
+      "title": "COP31氣候談判逾期仍未就化石燃料與調適融資達成協議",
+      "summary": "路透11月21日報導土耳其COP31談判超過原訂結束時間，近200國對化石燃料措辭及開發中國家調適資金仍有歧見；當時尚無最終協議。",
+      "background": "11月19日修訂草案刪除化石燃料退出文字及原擬1200億美元調適資金目標。",
+      "impact": "推論：談判僵局可能削弱政策可預測性，但不能把草案視為正式承諾。",
+      "follow_up": "追蹤最終文本、融資數字及各國履約機制。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/sustainability/cop/cop31-climate-summit-risks-failure-talks-go-deep-into-overtime-2026-11-21/",
+      "published_at": "2026-11-21",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261122-005",
+      "category": "intl-diplomacy",
+      "title": "澤倫斯基談美歐烏俄和平協商與頓巴斯分歧",
+      "summary": "路透11月21日報導，烏克蘭總統澤倫斯基轉述川普對歐洲援烏支出的談話，表示希望歐洲完整參與和平談判，並質疑俄羅斯是否願在頓巴斯問題妥協。",
+      "background": "俄烏和平談判持續受領土、安全保障及歐洲參與安排阻礙。",
+      "impact": "推論：若談判議程與參與方未獲共識，短期突破仍具不確定性；不應將轉述當作美方正式政策。",
+      "follow_up": "追蹤美國及歐洲正式聲明、下一輪會談時間與議程。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/europe/trump-told-european-leaders-they-were-spending-lot-ukraine-zelenskiy-says-2026-11-21/",
+      "published_at": "2026-11-21",
       "analysis_status": "reviewed"
     }
   ]
