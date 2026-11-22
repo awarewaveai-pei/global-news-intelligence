@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-22",
-  "updated_at": "2026-11-22T07:00:00+08:00",
+  "date": "2026-11-23",
+  "updated_at": "2026-11-23T07:02:36+08:00",
   "notice": "僅收錄正文可核實之獨立事件；候選RSS不得視為已審核新聞。",
   "articles": [
     {
@@ -5474,6 +5474,71 @@
       "source": "Reuters",
       "url": "https://www.reuters.com/world/europe/trump-told-european-leaders-they-were-spending-lot-ukraine-zelenskiy-says-2026-11-21/",
       "published_at": "2026-11-21",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261123-001",
+      "category": "tw-safety",
+      "title": "北士科工地頂樓火警撲滅，北市監測煙霧擴散",
+      "summary": "台北北投士林科技園區工地11月22日晚間發生火警，消防於23時10分撲滅，無人傷亡；市府提醒北投、士林及新北部分地區注意煙霧。",
+      "background": "消防於20時37分接獲通報，火勢曾由18樓向16樓延燒，跨縣市調度消防資源。",
+      "impact": "推論：大型工地火災凸顯高樓施工消防與跨區空污通報需求；目前不能判定起火原因。",
+      "follow_up": "追蹤火調結果、工地消防管理及環境監測數據。",
+      "source": "中央社",
+      "url": "https://www.cna.com.tw/news/asoc/202611230002.aspx",
+      "published_at": "2026-11-23 00:01 Asia/Taipei",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261123-002",
+      "category": "intl-climate",
+      "title": "COP31未達成整體政治協議，氣候談判因化石燃料及融資分歧告終",
+      "summary": "路透11月22日報導，土耳其COP31在延長談判後未能就整體政治決議達成共識，歐盟等反對缺乏化石燃料轉型措辭的草案。",
+      "background": "各國對化石燃料、氣候調適資金及超過1.5°C暖化的回應存在分歧；既有國際承諾未因此自動失效。",
+      "impact": "推論：本次失敗可能促使部分國家轉向小型合作聯盟，但不能視為全球氣候合作全面終止。",
+      "follow_up": "追蹤COP32準備、國家自主貢獻及氣候融資後續機制。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/sustainability/cop/cop31-climate-talks-close-final-deal-says-summit-president-2026-11-21/",
+      "published_at": "2026-11-22",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261123-003",
+      "category": "intl-energy",
+      "title": "泰國擬限制輸往緬甸稀土礦區的化學品以因應跨境污染",
+      "summary": "路透11月22日報導，泰國副總理表示擬阻止供緬甸稀土開採使用的化學品出口，並規劃將泰國境內Kok河段劃為污染管制區。",
+      "background": "緬甸稀土開採被指與泰國北部河流污染有關；泰中緬預定11月24至26日討論。",
+      "impact": "推論：若限制落實，可能影響稀土供應鏈及跨境環境治理，但實際管制清單和影響尚未公布。",
+      "follow_up": "追蹤三方會議、正式出口禁令範圍與水質檢測。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/sustainability/climate-energy/thailand-plans-block-exports-chemicals-used-myanmar-rare-earth-mining-2026-11-22/",
+      "published_at": "2026-11-22",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261123-004",
+      "category": "intl-security",
+      "title": "約旦河西岸巴勒斯坦村莊遭縱火，警方展開調查",
+      "summary": "路透11月22日報導，約旦河西岸多處巴勒斯坦村莊車輛遭縱火及塗寫仇恨標語，當時未通報傷亡；以色列警方啟動調查。",
+      "background": "事件發生於以色列組閣僵局與西岸持續緊張之際，反對派及政府官員分別公開譴責暴力。",
+      "impact": "推論：事件可能加劇當地族群緊張；在警方完成調查前不應推定特定組織責任。",
+      "follow_up": "追蹤警方調查、受害居民安全及後續政府處置。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/middle-east/israels-eisenkot-condemns-arson-attacks-by-jewish-settlers-west-bank-2026-11-22/",
+      "published_at": "2026-11-22",
+      "analysis_status": "reviewed"
+    },
+    {
+      "id": "gni-20261123-005",
+      "category": "intl-safety",
+      "title": "世衛警告剛果伊波拉疫情應對遭醫院附近戰事干擾",
+      "summary": "路透11月22日報導，WHO總幹事表示剛果民主共和國伊圖里省醫院附近激戰迫使醫護及援助人員避難逾24小時，妨礙伊波拉防疫工作。",
+      "background": "當地疫情與武裝衝突並行，WHO呼籲保障醫護、病人及醫療設施安全；疫情數字主要來自當地政府通報。",
+      "impact": "推論：醫療服務受阻可能提高疫情控制難度，惟傷亡與感染數字仍須持續核對。",
+      "follow_up": "追蹤WHO正式疫情通報、醫護撤離與安全通道。",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/who-chief-says-fighting-near-congo-ebola-outbreak-area-disrupts-response-efforts-2026-11-22/",
+      "published_at": "2026-11-22",
       "analysis_status": "reviewed"
     }
   ]
